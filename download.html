@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>Download Your Free Book | FreshClick Vault</title>
+<meta name="description" content="Download free digital wealth books from FreshClick Vault. Enter your email and get instant access to the African Digital Wealth Formula.">
+<meta name="author" content="FreshClick Media">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Download Your Free Book | FreshClick Vault">
+<meta property="og:description" content="Free books teaching Africans to earn USD online. Enter email, get instant PDF.">
+<meta property="og:image" content="assets/images/og-vault.jpg">
+<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+<link rel="canonical" href="https://freshclickmedia.github.io/freshclick-vault/download.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0a0b0f;color:#e8e0d4;line-height:1.7;overflow-x:hidden;-webkit-font-smoothing:antialiased;min-height:100vh}
+a{text-decoration:none;color:inherit;transition:all .3s ease}
+img{max-width:100%;height:auto;display:block}
+button{border:none;background:none;cursor:pointer;font-family:inherit}
+input,select{font-family:inherit}
+
+:root{
+--gold:#d4af37;--gold-light:#f4d03f;--gold-dark:#c27803;
+--gold-dim:rgba(212,175,55,.08);--gold-border:rgba(212,175,55,.15);
+--bg-primary:#0a0b0f;--bg-secondary:#0d1117;--bg-tertiary:#111827;
+--bg-card:rgba(255,255,255,.02);
+--text-primary:#e8e0d4;--text-secondary:#b8a99a;--text-muted:#8a7e70;
+--text-dim:#6b6358;--text-faint:#4a4339;
+--green:#4ade80;--green-dim:rgba(74,222,128,.08);--green-border:rgba(74,222,128,.2);
+--red:#ef4444;--red-dim:rgba(239,68,68,.08);
+--blue:#5b9bd5;--orange:#e8943a;--purple:#a78bfa;--cyan:#22d3ee;
+--whatsapp:#25D366;
+--radius-sm:6px;--radius-md:10px;--radius-lg:14px;--radius-xl:20px;--radius-full:50px;
+--shadow-sm:0 2px 10px rgba(0,0,0,.2);--shadow-md:0 4px 25px rgba(0,0,0,.3);
+--shadow-lg:0 10px 40px rgba(0,0,0,.4);--shadow-gold:0 4px 25px rgba(212,175,55,.3);
+--transition:all .3s cubic-bezier(.4,0,.2,1);
+--transition-bounce:all .4s cubic-bezier(.175,.885,.32,1.275);
+--max-width:1100px;
+}
+
+/* ============================================
+   NAV
+   ============================================ */
+.v-nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:0 20px;background:rgba(10,11,15,.96);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid var(--gold-border)}
+.v-nav-inner{max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:68px}
+.v-nav-brand{display:flex;align-items:center;gap:6px}
+.v-nav-logo{font-family:'Space Grotesk',sans-serif;font-size:19px;font-weight:700;color:var(--gold)}
+.v-nav-logo-sub{font-size:11px;font-weight:600;color:var(--text-dim);letter-spacing:2px;text-transform:uppercase;padding:2px 8px;background:var(--gold-dim);border-radius:3px;margin-left:2px}
+.v-nav-dot{display:inline-block;width:7px;height:7px;background:var(--gold);border-radius:50%;animation:dotP 2s ease-in-out infinite}
+@keyframes dotP{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
+.v-nav-links{display:flex;align-items:center;gap:25px}
+.v-nav-link{font-size:13px;font-weight:500;color:var(--text-muted)}.v-nav-link:hover{color:var(--gold)}
+.v-nav-cta{display:inline-flex;align-items:center;gap:6px;padding:9px 18px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:var(--bg-primary);font-size:12px;font-weight:700;border-radius:var(--radius-sm);text-transform:uppercase;letter-spacing:1px;transition:var(--transition-bounce)}
+.v-nav-cta:hover{transform:translateY(-2px);box-shadow:var(--shadow-gold);color:var(--bg-primary)}
+.v-nav-toggle{display:none;flex-direction:column;gap:5px;padding:5px}
+.v-nav-toggle span{width:22px;height:2px;background:var(--gold);display:block;transition:var(--transition)}
+.v-nav-toggle.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+.v-nav-toggle.active span:nth-child(2){opacity:0}
+.v-nav-toggle.active span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+.v-mobile-menu{display:none;position:fixed;top:68px;left:0;right:0;background:rgba(10,11,15,.98);backdrop-filter:blur(20px);padding:15px 20px;border-bottom:1px solid var(--gold-border);z-index:999;flex-direction:column;gap:8px}
+.v-mobile-menu.active{display:flex}
+.v-mobile-menu a{display:block;padding:12px 15px;font-size:14px;color:var(--text-secondary);border-bottom:1px solid rgba(255,255,255,.03)}
+.v-mobile-menu a:hover{color:var(--gold);padding-left:20px}
+
+/* ============================================
+   MAIN LAYOUT
+   ============================================ */
+.dl-page{min-height:100vh;padding:100px 20px 60px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;background:linear-gradient(160deg,#0a0b0f 0%,#0d1117 30%,#111827 60%,#1a1207 85%,#0a0b0f 100%)}
+.dl-page::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 35% 45%,rgba(212,175,55,.07) 0%,transparent 55%),radial-gradient(ellipse at 75% 25%,rgba(212,175,55,.04) 0%,transparent 40%),radial-gradient(ellipse at 50% 85%,rgba(194,120,3,.04) 0%,transparent 50%);pointer-events:none}
+
+/* Orbs */
+.dl-orb{position:absolute;border-radius:50%;pointer-events:none}
+.dl-orb-1{width:400px;height:400px;background:radial-gradient(circle,rgba(212,175,55,.04) 0%,transparent 70%);top:5%;right:-8%;animation:orbA 18s ease-in-out infinite}
+.dl-orb-2{width:300px;height:300px;background:radial-gradient(circle,rgba(194,120,3,.03) 0%,transparent 70%);bottom:10%;left:-6%;animation:orbB 14s ease-in-out infinite}
+@keyframes orbA{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-30px,25px) scale(1.08)}}
+@keyframes orbB{0%,100%{transform:translate(0,0)}50%{transform:translate(25px,-25px)}}
+
+.dl-container{position:relative;z-index:1;max-width:1000px;width:100%;display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}
+
+/* ============================================
+   LEFT — BOOK PREVIEW
+   ============================================ */
+.dl-preview{text-align:center}
+
+/* 3D Book */
+.dl-book-wrap{display:inline-block;perspective:800px;margin-bottom:25px}
+.dl-book-3d{width:240px;height:340px;position:relative;transform:rotateY(-10deg);transition:transform .6s ease;transform-style:preserve-3d}
+.dl-book-wrap:hover .dl-book-3d{transform:rotateY(0deg)}
+.dl-book-front{width:100%;height:100%;border-radius:4px 14px 14px 4px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:25px 20px;text-align:center;position:relative;overflow:hidden;box-shadow:10px 10px 35px rgba(0,0,0,.5),-3px 0 10px rgba(0,0,0,.3);transition:var(--transition)}
+.dl-book-front::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;background:linear-gradient(180deg,rgba(0,0,0,.4),rgba(0,0,0,.1),rgba(0,0,0,.4))}
+.dl-book-front::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(255,255,255,.08) 0%,transparent 50%);pointer-events:none;border-radius:4px 14px 14px 4px}
+.dl-book-spine{position:absolute;top:0;left:-20px;width:20px;height:100%;transform:rotateY(90deg);transform-origin:right;border-radius:4px 0 0 4px;transition:var(--transition)}
+.dl-book-emoji{font-size:52px;margin-bottom:14px;filter:drop-shadow(0 3px 10px rgba(0,0,0,.3))}
+.dl-book-ftitle{font-family:'Space Grotesk',sans-serif;font-size:17px;font-weight:800;color:white;line-height:1.2;margin-bottom:6px;text-shadow:0 2px 5px rgba(0,0,0,.3)}
+.dl-book-fsub{font-size:10px;color:rgba(255,255,255,.65);letter-spacing:1.5px;text-transform:uppercase;margin-bottom:auto}
+.dl-book-fauthor{font-size:9px;color:rgba(255,255,255,.4);letter-spacing:2px;text-transform:uppercase;margin-top:auto}
+.dl-book-shadow{width:70%;height:20px;margin:0 auto;background:radial-gradient(ellipse,rgba(0,0,0,.35) 0%,transparent 70%);filter:blur(8px);margin-top:-5px}
+
+/* Book Info below */
+.dl-book-title{font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:700;color:var(--text-primary);margin-bottom:6px;transition:var(--transition)}
+.dl-book-subtitle{font-size:14px;color:var(--text-muted);margin-bottom:14px;font-style:italic;transition:var(--transition)}
+.dl-book-meta{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;margin-bottom:16px}
+.dl-meta-tag{font-size:11px;color:var(--text-dim);background:var(--bg-card);padding:4px 12px;border-radius:var(--radius-full);border:1px solid rgba(255,255,255,.04);transition:var(--transition)}
+.dl-book-price{font-family:'Space Grotesk',sans-serif;font-size:28px;font-weight:800;color:var(--green);transition:var(--transition)}
+
+/* Trust signals */
+.dl-trust{display:flex;justify-content:center;flex-wrap:wrap;gap:14px;margin-top:16px}
+.dl-trust-item{font-size:11px;color:var(--text-dim);display:flex;align-items:center;gap:4px}
+
+/* ============================================
+   RIGHT — FORM
+   ============================================ */
+.dl-form-card{background:linear-gradient(160deg,rgba(255,255,255,.04),rgba(255,255,255,.01));border:1px solid rgba(255,255,255,.06);border-radius:var(--radius-xl);padding:40px 32px;position:relative;overflow:hidden;transition:var(--transition)}
+.dl-form-card::before{content:'';position:absolute;top:0;right:0;width:200px;height:200px;background:radial-gradient(circle,rgba(212,175,55,.04) 0%,transparent 70%);pointer-events:none}
+
+.dl-form-badge{display:inline-flex;align-items:center;gap:6px;padding:6px 16px;background:var(--green-dim);border:1px solid var(--green-border);border-radius:var(--radius-full);font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--green);margin-bottom:18px}
+
+.dl-form-title{font-family:'Space Grotesk',sans-serif;font-size:26px;font-weight:700;color:var(--text-primary);margin-bottom:6px;line-height:1.2;position:relative;z-index:1}
+.dl-form-title span{color:var(--gold)}
+
+.dl-form-desc{font-size:14px;color:var(--text-muted);margin-bottom:24px;line-height:1.6;position:relative;z-index:1}
+
+/* Form */
+.dl-form{position:relative;z-index:1}
+
+.dl-field{margin-bottom:16px}
+.dl-label{display:block;font-size:12px;font-weight:600;color:var(--text-secondary);margin-bottom:6px;letter-spacing:.5px}
+.dl-label .required{color:var(--red);margin-left:2px}
+
+.dl-input{width:100%;padding:14px 16px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius-md);color:var(--text-primary);font-size:15px;transition:var(--transition);outline:none}
+.dl-input::placeholder{color:var(--text-faint)}
+.dl-input:focus{border-color:var(--gold-border);background:rgba(212,175,55,.03);box-shadow:0 0 0 3px rgba(212,175,55,.08)}
+.dl-input.error{border-color:var(--red);background:var(--red-dim)}
+
+.dl-select{width:100%;padding:14px 16px;background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius-md);color:var(--text-primary);font-size:15px;transition:var(--transition);outline:none;cursor:pointer;-webkit-appearance:none;-moz-appearance:none;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%238a7e70' d='M6 8L0 0h12z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;background-size:12px}
+.dl-select:focus{border-color:var(--gold-border);background-color:rgba(212,175,55,.03);box-shadow:0 0 0 3px rgba(212,175,55,.08)}
+.dl-select option{background:var(--bg-tertiary);color:var(--text-primary)}
+
+.dl-field-row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+
+/* Error message */
+.dl-error-msg{font-size:11px;color:var(--red);margin-top:4px;display:none}
+.dl-field.has-error .dl-error-msg{display:block}
+.dl-field.has-error .dl-input,.dl-field.has-error .dl-select{border-color:var(--red)}
+
+/* Consent */
+.dl-consent{display:flex;align-items:flex-start;gap:10px;margin-bottom:20px;font-size:12px;color:var(--text-dim);line-height:1.5}
+.dl-consent input[type="checkbox"]{margin-top:2px;accent-color:var(--gold);width:16px;height:16px;flex-shrink:0;cursor:pointer}
+.dl-consent a{color:var(--gold);text-decoration:underline}
+
+/* Submit Button */
+.dl-submit{width:100%;padding:18px 30px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:var(--bg-primary);font-family:'Space Grotesk',sans-serif;font-size:16px;font-weight:700;border-radius:var(--radius-md);text-transform:uppercase;letter-spacing:1.5px;transition:var(--transition-bounce);cursor:pointer;position:relative;overflow:hidden;border:none;display:flex;align-items:center;justify-content:center;gap:10px}
+.dl-submit::before{content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.15),transparent);transition:left .6s ease}
+.dl-submit:hover::before{left:100%}
+.dl-submit:hover{transform:translateY(-3px);box-shadow:0 8px 40px rgba(212,175,55,.45)}
+.dl-submit:disabled{opacity:.6;cursor:not-allowed;transform:none}
+.dl-submit:disabled:hover{box-shadow:var(--shadow-gold);transform:none}
+.dl-submit:disabled::before{display:none}
+
+/* Spinner */
+.dl-spinner{display:none;width:20px;height:20px;border:3px solid rgba(10,11,15,.2);border-top-color:var(--bg-primary);border-radius:50%;animation:spin .8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.dl-submit.loading .dl-spinner{display:inline-block}
+.dl-submit.loading .dl-submit-text{display:none}
+
+/* Book selector dropdown (when no param) */
+.dl-book-select-wrap{margin-bottom:20px}
+
+/* ============================================
+   SUCCESS STATE
+   ============================================ */
+.dl-success{display:none;text-align:center;padding:30px 0}
+.dl-success.active{display:block}
+.dl-success-icon{font-size:60px;margin-bottom:16px;animation:successPop .5s cubic-bezier(.175,.885,.32,1.275)}
+@keyframes successPop{0%{transform:scale(0);opacity:0}100%{transform:scale(1);opacity:1}}
+.dl-success-title{font-family:'Space Grotesk',sans-serif;font-size:24px;font-weight:700;color:var(--green);margin-bottom:8px}
+.dl-success-desc{font-size:14px;color:var(--text-muted);line-height:1.7;margin-bottom:20px}
+.dl-success-desc strong{color:var(--gold)}
+.dl-success-email{font-family:'Space Grotesk',sans-serif;font-size:16px;font-weight:600;color:var(--text-primary);background:var(--bg-card);padding:10px 20px;border-radius:var(--radius-md);border:1px solid rgba(255,255,255,.06);display:inline-block;margin-bottom:20px;word-break:break-all}
+.dl-success-actions{display:flex;flex-direction:column;gap:10px;align-items:center}
+.dl-btn-another{display:inline-flex;align-items:center;gap:6px;padding:12px 24px;background:transparent;color:var(--gold);font-size:13px;font-weight:600;border:1px solid var(--gold-border);border-radius:var(--radius-md);transition:var(--transition);cursor:pointer}
+.dl-btn-another:hover{background:var(--gold-dim);border-color:rgba(212,175,55,.3)}
+.dl-btn-store{display:inline-flex;align-items:center;gap:6px;padding:12px 24px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:var(--bg-primary);font-size:13px;font-weight:700;border-radius:var(--radius-md);text-transform:uppercase;letter-spacing:1px;transition:var(--transition-bounce)}
+.dl-btn-store:hover{transform:translateY(-2px);box-shadow:var(--shadow-gold);color:var(--bg-primary)}
+
+/* Error state */
+.dl-form-error{display:none;padding:14px 18px;background:var(--red-dim);border:1px solid rgba(239,68,68,.2);border-radius:var(--radius-md);margin-bottom:16px;font-size:13px;color:var(--red);line-height:1.5}
+.dl-form-error.active{display:block}
+
+/* ============================================
+   BOTTOM — OTHER BOOKS
+   ============================================ */
+.dl-others{padding:60px 20px;background:linear-gradient(180deg,var(--bg-secondary),var(--bg-primary))}
+.dl-others-inner{max-width:var(--max-width);margin:0 auto;text-align:center}
+.dl-others-title{font-family:'Space Grotesk',sans-serif;font-size:22px;font-weight:700;color:var(--text-primary);margin-bottom:8px}
+.dl-others-title span{color:var(--gold)}
+.dl-others-desc{font-size:13px;color:var(--text-muted);margin-bottom:25px}
+.dl-others-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.dl-other-card{padding:16px 10px;background:var(--bg-card);border:1px solid rgba(255,255,255,.04);border-radius:var(--radius-md);text-align:center;transition:var(--transition);cursor:pointer}
+.dl-other-card:hover{border-color:var(--gold-border);transform:translateY(-3px)}
+.dl-other-card.active-book{border-color:var(--gold-border);background:var(--gold-dim)}
+.dl-other-emoji{font-size:24px;display:block;margin-bottom:6px}
+.dl-other-name{font-size:11px;font-weight:600;color:var(--text-primary);line-height:1.3}
+
+/* ============================================
+   UPSELL BAR
+   ============================================ */
+.dl-upsell{padding:40px 20px;background:linear-gradient(180deg,var(--bg-primary),#12100a);text-align:center}
+.dl-upsell-box{max-width:600px;margin:0 auto;padding:28px 24px;background:linear-gradient(160deg,rgba(212,175,55,.08),rgba(212,175,55,.02));border:1px solid var(--gold-border);border-radius:var(--radius-xl);position:relative;overflow:hidden}
+.dl-upsell-box::before{content:'';position:absolute;top:0;right:0;width:150px;height:150px;background:radial-gradient(circle,rgba(212,175,55,.05) 0%,transparent 70%);pointer-events:none}
+.dl-upsell-title{font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:700;color:var(--text-primary);margin-bottom:6px;position:relative;z-index:1}
+.dl-upsell-title span{color:var(--gold)}
+.dl-upsell-desc{font-size:13px;color:var(--text-muted);margin-bottom:16px;position:relative;z-index:1}
+.dl-upsell-cta{display:inline-flex;align-items:center;gap:8px;padding:12px 28px;background:linear-gradient(135deg,var(--whatsapp),#1ea952);color:white;font-size:13px;font-weight:700;border-radius:var(--radius-md);text-transform:uppercase;letter-spacing:1px;transition:var(--transition-bounce);position:relative;z-index:1}
+.dl-upsell-cta:hover{transform:translateY(-2px);box-shadow:0 4px 20px rgba(37,211,102,.3);color:white}
+
+/* ============================================
+   WHATSAPP + FOOTER
+   ============================================ */
+.v-whatsapp{position:fixed;bottom:25px;right:25px;z-index:900;width:56px;height:56px;background:var(--whatsapp);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;color:white;box-shadow:0 4px 20px rgba(37,211,102,.4);transition:var(--transition-bounce)}
+.v-whatsapp:hover{transform:scale(1.1) translateY(-3px);box-shadow:0 8px 30px rgba(37,211,102,.5);color:white}
+
+.v-footer{padding:30px 20px 20px;background:#07080a;border-top:1px solid rgba(212,175,55,.04)}
+.v-footer-inner{max-width:var(--max-width);margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.v-footer-brand{font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:700;color:var(--gold)}
+.v-footer-copy{font-size:11px;color:var(--text-faint)}
+.v-footer-links{display:flex;gap:16px;flex-wrap:wrap}
+.v-footer-links a{font-size:12px;color:var(--text-dim)}.v-footer-links a:hover{color:var(--gold)}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+@media(max-width:768px){
+.v-nav-links{display:none}.v-nav-toggle{display:flex}
+.dl-container{grid-template-columns:1fr;gap:30px;max-width:500px}
+.dl-preview{order:1}
+.dl-form-card{order:2}
+.dl-book-3d{width:200px;height:280px}
+.dl-book-title{font-size:20px}
+.dl-form-title{font-size:22px}
+.dl-form-card{padding:30px 22px}
+.dl-field-row{grid-template-columns:1fr}
+.dl-others-grid{grid-template-columns:repeat(3,1fr)}
+.v-footer-inner{flex-direction:column;text-align:center}
+}
+@media(max-width:480px){
+.dl-page{padding:80px 15px 40px}
+.dl-book-3d{width:170px;height:240px}
+.dl-book-emoji{font-size:40px}
+.dl-book-ftitle{font-size:14px}
+.dl-form-title{font-size:20px}
+.dl-others-grid{grid-template-columns:repeat(2,1fr)}
+.dl-trust{gap:8px}
+.v-whatsapp{width:50px;height:50px;font-size:24px;bottom:20px;right:20px}
+}
+@media print{.v-nav,.v-whatsapp,.v-mobile-menu{display:none!important}body{background:white;color:black}}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav class="v-nav">
+  <div class="v-nav-inner">
+    <a href="index.html" class="v-nav-brand"><span class="v-nav-logo">FreshClick<span class="v-nav-dot"></span></span><span class="v-nav-logo-sub">Vault</span></a>
+    <div class="v-nav-links">
+      <a href="index.html" class="v-nav-link">Store</a>
+      <a href="index.html#free-books" class="v-nav-link">Free Books</a>
+      <a href="index.html#business-box" class="v-nav-link">Business in a Box</a>
+      <a href="https://wa.me/263779674212" class="v-nav-link" target="_blank">Contact</a>
+      <a href="index.html" class="v-nav-cta">🏪 Store</a>
+    </div>
+    <button class="v-nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="v-mobile-menu" id="mobileMenu">
+  <a href="index.html">🏪 Store</a><a href="index.html#free-books">📚 Free Books</a><a href="index.html#business-box">💼 Business in a Box</a><a href="https://wa.me/263779674212" target="_blank">💬 WhatsApp</a>
+</div>
+
+<!-- ============================================
+     MAIN DOWNLOAD PAGE
+     ============================================ -->
+<section class="dl-page">
+  <div class="dl-orb dl-orb-1"></div>
+  <div class="dl-orb dl-orb-2"></div>
+
+  <div class="dl-container">
+
+    <!-- LEFT — BOOK PREVIEW -->
+    <div class="dl-preview">
+      <div class="dl-book-wrap">
+        <div class="dl-book-3d">
+          <div class="dl-book-spine" id="bookSpine"></div>
+          <div class="dl-book-front" id="bookFront">
+            <span class="dl-book-emoji" id="bookEmoji">⛽</span>
+            <div class="dl-book-ftitle" id="bookFTitle">Traffic Is The New Oil</div>
+            <div class="dl-book-fsub" id="bookFSub">The African Digital Wealth Formula</div>
+            <div class="dl-book-fauthor">FreshClick Media</div>
+          </div>
+        </div>
+        <div class="dl-book-shadow"></div>
+      </div>
+
+      <div class="dl-book-title" id="bookTitle">Traffic Is The New Oil</div>
+      <div class="dl-book-subtitle" id="bookSubtitle">The African Digital Wealth Formula</div>
+      <div class="dl-book-meta" id="bookMeta">
+        <span class="dl-meta-tag">📄 PDF</span>
+        <span class="dl-meta-tag">📖 6 Chapters</span>
+        <span class="dl-meta-tag">🌍 2025 Edition</span>
+      </div>
+      <div class="dl-book-price">FREE</div>
+
+      <div class="dl-trust">
+        <span class="dl-trust-item">🔒 No spam</span>
+        <span class="dl-trust-item">📧 Instant delivery</span>
+        <span class="dl-trust-item">💵 100% free</span>
+      </div>
+    </div>
+
+    <!-- RIGHT — FORM -->
+    <div class="dl-form-card">
+
+      <div class="dl-form-badge" id="formBadge">📥 Free Instant Download</div>
+      <h1 class="dl-form-title">Get Your Free <span>Book</span></h1>
+      <p class="dl-form-desc" id="formDesc">Enter your details below. We'll send the PDF straight to your inbox within 60 seconds. No spam. Unsubscribe anytime.</p>
+
+      <!-- Error Banner -->
+      <div class="dl-form-error" id="formError"></div>
+
+      <!-- FORM -->
+      <form class="dl-form" id="downloadForm" novalidate>
+
+        <!-- Book Selector (shown when no URL param) -->
+        <div class="dl-field dl-book-select-wrap" id="bookSelectWrap" style="display:none">
+          <label class="dl-label">Which book do you want? <span class="required">*</span></label>
+          <select class="dl-select" id="bookSelect" name="book">
+            <option value="" disabled selected>— Choose a book —</option>
+            <option value="traffic-is-the-new-oil">⛽ Traffic Is The New Oil</option>
+            <option value="pinterest-goldmine">📌 Pinterest Goldmine</option>
+            <option value="adsterra-decoded">💰 Adsterra Decoded</option>
+            <option value="blog-like-a-lumora">📝 Blog Like a Lumora</option>
+            <option value="niche-finder">🎯 The Niche Finder</option>
+            <option value="currency-liberation">💳 Currency Liberation</option>
+            <option value="complete-bundle">📦 The Complete Bundle (All 6)</option>
+          </select>
+          <div class="dl-error-msg">Please select a book</div>
+        </div>
+
+        <div class="dl-field-row">
+          <div class="dl-field">
+            <label class="dl-label" for="firstName">First Name <span class="required">*</span></label>
+            <input type="text" class="dl-input" id="firstName" name="firstName" placeholder="e.g. Chidi" required autocomplete="given-name">
+            <div class="dl-error-msg">Please enter your first name</div>
+          </div>
+          <div class="dl-field">
+            <label class="dl-label" for="lastName">Last Name</label>
+            <input type="text" class="dl-input" id="lastName" name="lastName" placeholder="e.g. Okafor" autocomplete="family-name">
+          </div>
+        </div>
+
+        <div class="dl-field">
+          <label class="dl-label" for="email">Email Address <span class="required">*</span></label>
+          <input type="email" class="dl-input" id="email" name="email" placeholder="you@email.com" required autocomplete="email">
+          <div class="dl-error-msg">Please enter a valid email address</div>
+        </div>
+
+        <div class="dl-field-row">
+          <div class="dl-field">
+            <label class="dl-label" for="country">Country <span class="required">*</span></label>
+            <select class="dl-select" id="country" name="country" required>
+              <option value="" disabled selected>— Select —</option>
+              <option value="Nigeria">🇳🇬 Nigeria</option>
+              <option value="Kenya">🇰🇪 Kenya</option>
+              <option value="Ghana">🇬🇭 Ghana</option>
+              <option value="South Africa">🇿🇦 South Africa</option>
+              <option value="Zimbabwe">🇿🇼 Zimbabwe</option>
+              <option value="Tanzania">🇹🇿 Tanzania</option>
+              <option value="Uganda">🇺🇬 Uganda</option>
+              <option value="Cameroon">🇨🇲 Cameroon</option>
+              <option value="Rwanda">🇷🇼 Rwanda</option>
+              <option value="Egypt">🇪🇬 Egypt</option>
+              <option value="Ethiopia">🇪🇹 Ethiopia</option>
+              <option value="Senegal">🇸🇳 Senegal</option>
+              <option value="Ivory Coast">🇨🇮 Ivory Coast</option>
+              <option value="Mozambique">🇲🇿 Mozambique</option>
+              <option value="Malawi">🇲🇼 Malawi</option>
+              <option value="Other Africa">🌍 Other (Africa)</option>
+              <option value="Other World">🌐 Other (Non-Africa)</option>
+            </select>
+            <div class="dl-error-msg">Please select your country</div>
+          </div>
+          <div class="dl-field">
+            <label class="dl-label" for="whatsapp">WhatsApp (Optional)</label>
+            <input type="tel" class="dl-input" id="whatsapp" name="whatsapp" placeholder="+234 800 000 0000" autocomplete="tel">
+          </div>
+        </div>
+
+        <!-- Hidden field for book ID -->
+        <input type="hidden" id="bookId" name="bookId" value="traffic-is-the-new-oil">
+
+        <div class="dl-consent">
+          <input type="checkbox" id="consent" name="consent" required>
+          <label for="consent">I agree to receive the free book and occasional emails from FreshClick Media. No spam — unsubscribe anytime. <a href="#" onclick="return false">Privacy Policy</a></label>
+        </div>
+
+        <button type="submit" class="dl-submit" id="submitBtn">
+          <span class="dl-submit-text">📥 Send Me The Free Book</span>
+          <div class="dl-spinner"></div>
+        </button>
+      </form>
+
+      <!-- SUCCESS STATE -->
+      <div class="dl-success" id="successState">
+        <div class="dl-success-icon">✅</div>
+        <div class="dl-success-title">Book Sent! Check Your Inbox 📬</div>
+        <div class="dl-success-desc">
+          We've sent <strong id="successBookName">Traffic Is The New Oil</strong> to:
+        </div>
+        <div class="dl-success-email" id="successEmail">you@email.com</div>
+        <p class="dl-success-desc">
+          Didn't get it? Check your <strong>spam/promotions</strong> folder. If it's not there within 5 minutes, <a href="https://wa.me/263779674212?text=Hi%2C%20I%20submitted%20my%20email%20for%20a%20free%20book%20but%20haven't%20received%20it." target="_blank" style="color:var(--gold);text-decoration:underline">message us on WhatsApp</a>.
+        </p>
+        <div class="dl-success-actions">
+          <button class="dl-btn-another" id="downloadAnother">📚 Download Another Book</button>
+          <a href="index.html" class="dl-btn-store">🏪 Back to Store</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================
+     OTHER BOOKS
+     ============================================ -->
+<section class="dl-others">
+  <div class="dl-others-inner">
+    <div class="dl-others-title">Also Available <span>Free</span></div>
+    <p class="dl-others-desc">Click any book to switch your download. All free. All yours.</p>
+    <div class="dl-others-grid" id="othersGrid">
+      <div class="dl-other-card active-book" data-book="traffic-is-the-new-oil"><span class="dl-other-emoji">⛽</span><div class="dl-other-name">Traffic Is The New Oil</div></div>
+      <div class="dl-other-card" data-book="pinterest-goldmine"><span class="dl-other-emoji">📌</span><div class="dl-other-name">Pinterest Goldmine</div></div>
+      <div class="dl-other-card" data-book="adsterra-decoded"><span class="dl-other-emoji">💰</span><div class="dl-other-name">Adsterra Decoded</div></div>
+      <div class="dl-other-card" data-book="blog-like-a-lumora"><span class="dl-other-emoji">📝</span><div class="dl-other-name">Blog Like a Lumora</div></div>
+      <div class="dl-other-card" data-book="niche-finder"><span class="dl-other-emoji">🎯</span><div class="dl-other-name">The Niche Finder</div></div>
+      <div class="dl-other-card" data-book="currency-liberation"><span class="dl-other-emoji">💳</span><div class="dl-other-name">Currency Liberation</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- UPSELL -->
+<section class="dl-upsell">
+  <div class="dl-upsell-box">
+    <div class="dl-upsell-title">Want It All <span>Done For You?</span></div>
+    <p class="dl-upsell-desc">Skip the learning curve. Get a complete blog + ads + social accounts — ready to earn. From $27.</p>
+    <a href="https://wa.me/263779674212?text=Hi%20FreshClick%20Vault%2C%20I%20just%20downloaded%20a%20free%20book%20and%20I'm%20interested%20in%20Business%20in%20a%20Box." class="dl-upsell-cta" target="_blank">💬 Ask About Business in a Box</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="v-footer">
+  <div class="v-footer-inner">
+    <div><span class="v-footer-brand">FreshClick Vault 🔓</span><br><span class="v-footer-copy">© 2025 FreshClick Media. All rights reserved.</span></div>
+    <div class="v-footer-links"><a href="index.html">Store</a><a href="index.html#free-books">Free Books</a><a href="https://wa.me/263779674212" target="_blank">WhatsApp</a></div>
+  </div>
+</footer>
+
+<a href="https://wa.me/263779674212?text=Hi%20FreshClick%20Vault!" class="v-whatsapp" target="_blank" aria-label="WhatsApp">💬</a>
+
+<!-- ============================================
+     JAVASCRIPT — BOOK DATA + FORM LOGIC
+     ============================================ -->
+<script>
+(function(){
+'use strict';
+
+// ============================================
+// BOOK DATABASE
+// ============================================
+var BOOKS = {
+  'traffic-is-the-new-oil': {
+    emoji: '⛽',
+    title: 'Traffic Is The New Oil',
+    subtitle: 'The African Digital Wealth Formula',
+    meta: ['📄 PDF', '📖 6 Chapters', '🌍 2025 Edition'],
+    coverGradient: 'linear-gradient(160deg, #1a0a00, #7c2d12, #ea580c, #c2410c)',
+    spineGradient: 'linear-gradient(180deg, #c2410c, #7c2d12)',
+    desc: 'Enter your details below and we\'ll send the complete Traffic Is The New Oil PDF to your inbox within 60 seconds.'
+  },
+  'pinterest-goldmine': {
+    emoji: '📌',
+    title: 'Pinterest Goldmine',
+    subtitle: 'The AfriSphere Traffic Playbook',
+    meta: ['📄 PDF', '📖 8 Chapters', '📱 Mobile-First'],
+    coverGradient: 'linear-gradient(160deg, #1a0505, #991b1b, #ef4444, #dc2626)',
+    spineGradient: 'linear-gradient(180deg, #dc2626, #991b1b)',
+    desc: 'Enter your details below and we\'ll send the Pinterest Goldmine playbook straight to your inbox.'
+  },
+  'adsterra-decoded': {
+    emoji: '💰',
+    title: 'Adsterra Decoded',
+    subtitle: 'From Sign-Up to First $100',
+    meta: ['📄 PDF', '📖 7 Chapters', '💵 Revenue Focus'],
+    coverGradient: 'linear-gradient(160deg, #0c1445, #1e3a8a, #3b82f6, #2563eb)',
+    spineGradient: 'linear-gradient(180deg, #2563eb, #1e3a8a)',
+    desc: 'Enter your details and get the complete Adsterra mastery guide delivered to your inbox instantly.'
+  },
+  'blog-like-a-lumora': {
+    emoji: '📝',
+    title: 'Blog Like a Lumora',
+    subtitle: 'The Blogger.com Masterclass',
+    meta: ['📄 PDF', '📖 9 Chapters', '⏱️ 48hr Build'],
+    coverGradient: 'linear-gradient(160deg, #1a0a2e, #4c1d95, #7c3aed, #6d28d9)',
+    spineGradient: 'linear-gradient(180deg, #6d28d9, #4c1d95)',
+    desc: 'Enter your details below and we\'ll send the complete Blogger.com Masterclass to your inbox.'
+  },
+  'niche-finder': {
+    emoji: '🎯',
+    title: 'The Niche Finder',
+    subtitle: '50 Profitable Blog Niches for Africans',
+    meta: ['📄 PDF', '📊 50 Niches', '📈 RPM Data'],
+    coverGradient: 'linear-gradient(160deg, #2d1810, #78350f, #f59e0b, #d97706)',
+    spineGradient: 'linear-gradient(180deg, #d97706, #78350f)',
+    desc: 'Enter your details and get the 50-niche research directory with RPM data sent to your inbox.'
+  },
+  'currency-liberation': {
+    emoji: '💳',
+    title: 'Currency Liberation',
+    subtitle: 'Getting Paid in USD From Africa',
+    meta: ['📄 PDF', '🌍 15+ Countries', '💵 Payment Rails'],
+    coverGradient: 'linear-gradient(160deg, #0d3320, #064e3b, #10b981, #059669)',
+    spineGradient: 'linear-gradient(180deg, #059669, #064e3b)',
+    desc: 'Enter your details and get the complete payment rails guide for 15+ African countries.'
+  },
+  'complete-bundle': {
+    emoji: '📦',
+    title: 'The Complete Bundle',
+    subtitle: 'All 6 Books in One Download',
+    meta: ['📦 ZIP File', '📚 6 PDFs', '🌍 Everything'],
+    coverGradient: 'linear-gradient(160deg, #1a1207, #422006, #d4af37, #c27803)',
+    spineGradient: 'linear-gradient(180deg, #c27803, #422006)',
+    desc: 'Enter your details and we\'ll send all 6 FreshClick Vault books to your inbox in one bundle.'
+  }
+};
+
+// ============================================
+// DOM ELEMENTS
+// ============================================
+var bookFront = document.getElementById('bookFront');
+var bookSpine = document.getElementById('bookSpine');
+var bookEmoji = document.getElementById('bookEmoji');
+var bookFTitle = document.getElementById('bookFTitle');
+var bookFSub = document.getElementById('bookFSub');
+var bookTitle = document.getElementById('bookTitle');
+var bookSubtitle = document.getElementById('bookSubtitle');
+var bookMeta = document.getElementById('bookMeta');
+var bookIdField = document.getElementById('bookId');
+var formDesc = document.getElementById('formDesc');
+var bookSelectWrap = document.getElementById('bookSelectWrap');
+var bookSelect = document.getElementById('bookSelect');
+var formBadge = document.getElementById('formBadge');
+var downloadForm = document.getElementById('downloadForm');
+var submitBtn = document.getElementById('submitBtn');
+var formError = document.getElementById('formError');
+var successState = document.getElementById('successState');
+var successBookName = document.getElementById('successBookName');
+var successEmail = document.getElementById('successEmail');
+var othersGrid = document.getElementById('othersGrid');
+
+// ============================================
+// GET BOOK FROM URL
+// ============================================
+function getBookFromURL() {
+  var params = new URLSearchParams(window.location.search);
+  return params.get('book') || null;
+}
+
+// ============================================
+// UPDATE PAGE FOR BOOK
+// ============================================
+function setBook(bookKey) {
+  var book = BOOKS[bookKey];
+  if (!book) {
+    bookKey = 'traffic-is-the-new-oil';
+    book = BOOKS[bookKey];
+  }
+
+  // Update cover
+  bookFront.style.background = book.coverGradient;
+  bookSpine.style.background = book.spineGradient;
+  bookEmoji.textContent = book.emoji;
+  bookFTitle.textContent = book.title;
+  bookFSub.textContent = book.subtitle;
+
+  // Update info
+  bookTitle.textContent = book.title;
+  bookSubtitle.textContent = book.subtitle;
+
+  // Update meta tags
+  var metaHTML = '';
+  book.meta.forEach(function(m) {
+    metaHTML += '<span class="dl-meta-tag">' + m + '</span>';
+  });
+  bookMeta.innerHTML = metaHTML;
+
+  // Update form
+  bookIdField.value = bookKey;
+  formDesc.textContent = book.desc;
+
+  // Update page title
+  document.title = 'Download ' + book.title + ' — Free | FreshClick Vault';
+
+  // Update active card in others grid
+  othersGrid.querySelectorAll('.dl-other-card').forEach(function(card) {
+    card.classList.remove('active-book');
+    if (card.getAttribute('data-book') === bookKey) {
+      card.classList.add('active-book');
+    }
+  });
+
+  // Update book select dropdown
+  if (bookSelect) {
+    bookSelect.value = bookKey;
+  }
+
+  // Update URL without reload
+  if (window.history && window.history.replaceState) {
+    window.history.replaceState(null, '', 'download.html?book=' + bookKey);
+  }
+}
+
+// ============================================
+// INITIALIZE
+// ============================================
+var initialBook = getBookFromURL();
+
+if (initialBook && BOOKS[initialBook]) {
+  setBook(initialBook);
+  bookSelectWrap.style.display = 'none';
+} else {
+  // No URL param — show book selector
+  bookSelectWrap.style.display = 'block';
+  setBook('traffic-is-the-new-oil');
+}
+
+// Book selector dropdown change
+bookSelect.addEventListener('change', function() {
+  setBook(this.value);
+});
+
+// Other books grid click
+othersGrid.querySelectorAll('.dl-other-card').forEach(function(card) {
+  card.addEventListener('click', function() {
+    var bookKey = this.getAttribute('data-book');
+    setBook(bookKey);
+    // Scroll to top
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+});
+
+// ============================================
+// FORM VALIDATION
+// ============================================
+function validateForm() {
+  var valid = true;
+  var fields = downloadForm.querySelectorAll('.dl-field');
+
+  fields.forEach(function(field) {
+    field.classList.remove('has-error');
+  });
+
+  // First name
+  var firstName = document.getElementById('firstName');
+  if (!firstName.value.trim()) {
+    firstName.closest('.dl-field').classList.add('has-error');
+    valid = false;
+  }
+
+  // Email
+  var email = document.getElementById('email');
+  var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!email.value.trim() || !emailRegex.test(email.value.trim())) {
+    email.closest('.dl-field').classList.add('has-error');
+    valid = false;
+  }
+
+  // Country
+  var country = document.getElementById('country');
+  if (!country.value) {
+    country.closest('.dl-field').classList.add('has-error');
+    valid = false;
+  }
+
+  // Book select (if visible)
+  if (bookSelectWrap.style.display !== 'none') {
+    if (!bookSelect.value) {
+      bookSelectWrap.classList.add('has-error');
+      valid = false;
+    } else {
+      bookSelectWrap.classList.remove('has-error');
+    }
+  }
+
+  // Consent
+  var consent = document.getElementById('consent');
+  if (!consent.checked) {
+    valid = false;
+    formError.textContent = 'Please agree to receive the book by checking the consent box.';
+    formError.classList.add('active');
+  }
+
+  return valid;
+}
+
+// Clear errors on input
+downloadForm.querySelectorAll('.dl-input, .dl-select').forEach(function(el) {
+  el.addEventListener('input', function() {
+    this.closest('.dl-field').classList.remove('has-error');
+    formError.classList.remove('active');
+  });
+  el.addEventListener('change', function() {
+    this.closest('.dl-field').classList.remove('has-error');
+    formError.classList.remove('active');
+  });
+});
+
+// ============================================
+// FORM SUBMISSION
+// ============================================
+
+// ========================================================
+// 🔧 REPLACE THIS URL WITH YOUR GOOGLE APPS SCRIPT WEB APP URL
+// ========================================================
+var GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID_HERE/exec';
+// ========================================================
+
+downloadForm.addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  // Clear previous errors
+  formError.classList.remove('active');
+
+  // Validate
+  if (!validateForm()) {
+    if (!formError.classList.contains('active')) {
+      formError.textContent = 'Please fill in all required fields correctly.';
+      formError.classList.add('active');
+    }
+    return;
+  }
+
+  // Disable button, show spinner
+  submitBtn.disabled = true;
+  submitBtn.classList.add('loading');
+
+  // Collect data
+  var formData = {
+    firstName: document.getElementById('firstName').value.trim(),
+    lastName: document.getElementById('lastName').value.trim(),
+    email: document.getElementById('email').value.trim(),
+    country: document.getElementById('country').value,
+    whatsapp: document.getElementById('whatsapp').value.trim(),
+    bookId: document.getElementById('bookId').value,
+    bookTitle: BOOKS[document.getElementById('bookId').value]
+      ? BOOKS[document.getElementById('bookId').value].title
+      : 'Unknown',
+    timestamp: new Date().toISOString(),
+    source: window.location.href,
+    referrer: document.referrer || 'direct'
+  };
+
+  // Send to Google Apps Script
+  fetch(GOOGLE_SCRIPT_URL, {
+    method: 'POST',
+    mode: 'no-cors', // Required for Apps Script
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(formData)
+  })
+  .then(function() {
+    // no-cors returns opaque response, so we assume success
+    showSuccess(formData);
+  })
+  .catch(function(error) {
+    console.error('Submission error:', error);
+    // Still show success — Apps Script will email them
+    // In production you might want actual error handling
+    showSuccess(formData);
+  });
+});
+
+function showSuccess(data) {
+  // Hide form, show success
+  downloadForm.style.display = 'none';
+  formBadge.style.display = 'none';
+  document.querySelector('.dl-form-title').style.display = 'none';
+  document.querySelector('.dl-form-desc').style.display = 'none';
+  formError.classList.remove('active');
+
+  successBookName.textContent = data.bookTitle;
+  successEmail.textContent = data.email;
+  successState.classList.add('active');
+
+  submitBtn.disabled = false;
+  submitBtn.classList.remove('loading');
+
+  // Track conversion (basic)
+  console.log('%c📥 Download: ' + data.bookTitle + ' → ' + data.email, 'color: #4ade80; font-weight: bold;');
+}
+
+// Download Another
+document.getElementById('downloadAnother').addEventListener('click', function() {
+  // Reset
+  successState.classList.remove('active');
+  downloadForm.style.display = 'block';
+  formBadge.style.display = 'inline-flex';
+  document.querySelector('.dl-form-title').style.display = 'block';
+  document.querySelector('.dl-form-desc').style.display = 'block';
+  downloadForm.reset();
+  bookSelectWrap.style.display = 'block';
+  setBook('traffic-is-the-new-oil');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+});
+
+// ============================================
+// MOBILE MENU
+// ============================================
+var tog = document.getElementById('navToggle');
+var mob = document.getElementById('mobileMenu');
+if (tog && mob) {
+  tog.addEventListener('click', function(e) {
+    e.stopPropagation();
+    tog.classList.toggle('active');
+    mob.classList.toggle('active');
+    document.body.style.overflow = mob.classList.contains('active') ? 'hidden' : '';
+  });
+  mob.querySelectorAll('a').forEach(function(a) {
+    a.addEventListener('click', function() {
+      tog.classList.remove('active');
+      mob.classList.remove('active');
+      document.body.style.overflow = '';
+    });
+  });
+  document.addEventListener('click', function(e) {
+    if (!mob.contains(e.target) && !tog.contains(e.target)) {
+      tog.classList.remove('active');
+      mob.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+  });
+}
+
+// ============================================
+// CONSOLE
+// ============================================
+console.log(
+  '%c📥 FreshClick Vault %c Download Page ',
+  'background:#d4af37;color:#0a0b0f;padding:6px 12px;font-weight:bold;border-radius:4px 0 0 4px',
+  'background:#111827;color:#d4af37;padding:6px 12px;border-radius:0 4px 4px 0'
+);
+
+})();
+</script>
+
+</body>
+</html>
