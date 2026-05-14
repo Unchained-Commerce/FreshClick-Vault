@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>Traffic Is The New Oil — Free Download | FreshClick Vault</title>
+<meta name="description" content="Download the free book that's changing how Africans make money online. The complete Traffic + Ads = Money formula. PDF, instant download, no email required.">
+<meta name="keywords" content="traffic is the new oil, free ebook africa, make money online africa, adsterra, pinterest traffic, FreshClick Media, AfriSphere">
+<meta name="author" content="FreshClick Media">
+<meta name="robots" content="index, follow">
+<meta property="og:type" content="book">
+<meta property="og:title" content="Traffic Is The New Oil — Free Download">
+<meta property="og:description" content="The African Digital Wealth Formula. Free PDF download. No email required.">
+<meta property="og:image" content="assets/images/book-traffic-oil.jpg">
+<meta property="og:url" content="https://freshclickmedia.github.io/freshclick-vault/download-traffic-is-the-new-oil.html">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+<link rel="canonical" href="https://freshclickmedia.github.io/freshclick-vault/download-traffic-is-the-new-oil.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,sans-serif;background:#0a0b0f;color:#e8e0d4;line-height:1.7;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+a{text-decoration:none;color:inherit;transition:all .3s ease}
+img{max-width:100%;height:auto;display:block}
+ul,ol{list-style:none}
+button{border:none;background:none;cursor:pointer;font-family:inherit}
+:root{
+--gold:#d4af37;--gold-light:#f4d03f;--gold-dark:#c27803;
+--gold-dim:rgba(212,175,55,.08);--gold-border:rgba(212,175,55,.15);
+--bg-primary:#0a0b0f;--bg-secondary:#0d1117;--bg-tertiary:#111827;
+--bg-card:rgba(255,255,255,.02);
+--text-primary:#e8e0d4;--text-secondary:#b8a99a;--text-muted:#8a7e70;
+--text-dim:#6b6358;--text-faint:#4a4339;
+--green:#4ade80;--green-dim:rgba(74,222,128,.08);
+--blue:#5b9bd5;--orange:#e8943a;--purple:#a78bfa;
+--whatsapp:#25D366;
+--radius-sm:6px;--radius-md:10px;--radius-lg:14px;--radius-xl:20px;--radius-full:50px;
+--shadow-gold:0 4px 25px rgba(212,175,55,.3);
+--transition:all .3s cubic-bezier(.4,0,.2,1);
+--transition-bounce:all .4s cubic-bezier(.175,.885,.32,1.275);
+--max-width:1100px;
+}
+/* NAV */
+.v-nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:0 20px;transition:var(--transition);background:rgba(10,11,15,.96);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid var(--gold-border)}
+.v-nav-inner{max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:68px}
+.v-nav-brand{display:flex;align-items:center;gap:6px}
+.v-nav-logo{font-family:'Space Grotesk',sans-serif;font-size:19px;font-weight:700;color:var(--gold)}
+.v-nav-logo-sub{font-size:11px;font-weight:600;color:var(--text-dim);letter-spacing:2px;text-transform:uppercase;padding:2px 8px;background:var(--gold-dim);border-radius:3px;margin-left:2px}
+.v-nav-dot{display:inline-block;width:7px;height:7px;background:var(--gold);border-radius:50%;animation:dotP 2s ease-in-out infinite}
+@keyframes dotP{0%,100%{opacity:1}50%{opacity:.5}}
+.v-nav-links{display:flex;align-items:center;gap:25px}
+.v-nav-link{font-size:13px;font-weight:500;color:var(--text-muted);transition:var(--transition)}
+.v-nav-link:hover{color:var(--gold)}
+.v-nav-cta{display:inline-flex;align-items:center;gap:6px;padding:9px 20px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:var(--bg-primary);font-size:12px;font-weight:700;border-radius:var(--radius-sm);text-transform:uppercase;letter-spacing:1px;transition:var(--transition-bounce)}
+.v-nav-cta:hover{transform:translateY(-2px);box-shadow:var(--shadow-gold);color:var(--bg-primary)}
+.v-nav-toggle{display:none;flex-direction:column;gap:5px;padding:5px}
+.v-nav-toggle span{width:22px;height:2px;background:var(--gold);transition:var(--transition);display:block}
+.v-nav-toggle.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+.v-nav-toggle.active span:nth-child(2){opacity:0}
+.v-nav-toggle.active span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+.v-mobile-menu{display:none;position:fixed;top:68px;left:0;right:0;background:rgba(10,11,15,.98);backdrop-filter:blur(20px);padding:15px 20px;border-bottom:1px solid var(--gold-border);z-index:999;flex-direction:column;gap:8px}
+.v-mobile-menu.active{display:flex}
+.v-mobile-menu a{display:block;padding:12px 15px;font-size:14px;color:var(--text-secondary);border-bottom:1px solid rgba(255,255,255,.03)}
+.v-mobile-menu a:hover{color:var(--gold);padding-left:20px}
+
+/* BREADCRUMB */
+.v-breadcrumb{padding:85px 20px 0;max-width:var(--max-width);margin:0 auto}
+.v-breadcrumb-inner{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--text-dim);flex-wrap:wrap}
+.v-breadcrumb-inner a{color:var(--text-muted)}
+.v-breadcrumb-inner a:hover{color:var(--gold)}
+.v-breadcrumb-sep{color:var(--text-faint)}
+
+/* BOOK HERO */
+.v-book-hero{padding:30px 20px 60px;background:linear-gradient(180deg,var(--bg-primary),var(--bg-secondary))}
+.v-book-hero-inner{max-width:var(--max-width);margin:0 auto;display:grid;grid-template-columns:1fr 1.4fr;gap:50px;align-items:center}
+
+.v-book-cover{position:relative;text-align:center}
+.v-book-cover-visual{
+  width:280px;height:380px;margin:0 auto;
+  background:linear-gradient(160deg,rgba(212,175,55,.12),rgba(212,175,55,.03));
+  border:2px solid rgba(212,175,55,.2);border-radius:var(--radius-lg);
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  position:relative;overflow:hidden;
+  box-shadow:0 20px 60px rgba(0,0,0,.5),0 0 40px rgba(212,175,55,.1);
+}
+.v-book-cover-visual::before{
+  content:'';position:absolute;top:0;left:0;right:0;bottom:0;
+  background:linear-gradient(135deg,rgba(212,175,55,.06),transparent 50%);pointer-events:none;
+}
+.v-book-cover-emoji{font-size:64px;margin-bottom:15px;position:relative;z-index:1}
+.v-book-cover-title{
+  font-family:'Space Grotesk',sans-serif;font-size:20px;font-weight:800;
+  color:var(--gold);text-align:center;line-height:1.2;padding:0 20px;position:relative;z-index:1;
+}
+.v-book-cover-author{font-size:11px;color:var(--text-dim);letter-spacing:2px;text-transform:uppercase;margin-top:10px;position:relative;z-index:1}
+.v-book-cover-badge{
+  position:absolute;top:15px;right:15px;font-size:10px;font-weight:700;
+  padding:4px 12px;border-radius:var(--radius-full);letter-spacing:1px;
+  text-transform:uppercase;background:var(--green-dim);color:var(--green);z-index:2;
+}
+.v-book-spine{
+  position:absolute;left:-3px;top:10%;bottom:10%;width:6px;
+  background:linear-gradient(180deg,var(--gold),var(--gold-dark));
+  border-radius:3px 0 0 3px;
+}
+
+.v-book-info h1{
+  font-family:'Space Grotesk',sans-serif;font-size:38px;font-weight:800;
+  line-height:1.1;margin-bottom:8px;
+  background:linear-gradient(135deg,#d4af37,#f4d03f,#d4af37,#c27803);
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.v-book-info .v-book-subtitle{
+  font-family:'Space Grotesk',sans-serif;font-size:16px;font-weight:600;
+  color:var(--text-muted);letter-spacing:2px;text-transform:uppercase;margin-bottom:18px;
+}
+.v-book-info .v-book-desc{font-size:15px;color:var(--text-secondary);line-height:1.8;margin-bottom:20px}
+.v-book-info .v-book-desc strong{color:var(--gold);font-weight:600}
+
+.v-book-meta{display:flex;flex-wrap:wrap;gap:15px;margin-bottom:22px}
+.v-book-meta-item{display:flex;align-items:center;gap:6px;font-size:12px;color:var(--text-dim);background:var(--bg-card);padding:6px 14px;border-radius:var(--radius-full);border:1px solid rgba(255,255,255,.04)}
+
+.v-book-price{font-family:'Space Grotesk',sans-serif;font-size:28px;font-weight:800;color:var(--green);margin-bottom:18px}
+
+.v-book-cta-group{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:15px}
+.v-btn-primary{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  padding:16px 38px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));
+  color:var(--bg-primary);font-family:'Space Grotesk',sans-serif;font-size:15px;
+  font-weight:700;border-radius:var(--radius-md);text-transform:uppercase;
+  letter-spacing:1.5px;transition:var(--transition-bounce);
+  box-shadow:var(--shadow-gold);position:relative;overflow:hidden;
+}
+.v-btn-primary::before{content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.15),transparent);transition:left .6s ease}
+.v-btn-primary:hover::before{left:100%}
+.v-btn-primary:hover{transform:translateY(-3px);box-shadow:0 8px 40px rgba(212,175,55,.45);color:var(--bg-primary)}
+
+.v-btn-secondary{
+  display:inline-flex;align-items:center;justify-content:center;gap:8px;
+  padding:14px 28px;background:transparent;color:var(--gold);font-size:14px;
+  font-weight:600;border-radius:var(--radius-md);border:1px solid rgba(212,175,55,.25);
+  transition:var(--transition);
+}
+.v-btn-secondary:hover{background:rgba(212,175,55,.08);border-color:rgba(212,175,55,.4);color:var(--gold-light);transform:translateY(-2px)}
+
+.v-btn-green{background:linear-gradient(135deg,var(--green),#22c55e);box-shadow:0 4px 25px rgba(74,222,128,.3)}
+.v-btn-green:hover{box-shadow:0 8px 40px rgba(74,222,128,.4)}
+
+.v-book-note{font-size:12px;color:var(--text-dim);font-style:italic}
+
+/* SECTIONS */
+.v-section{padding:70px 20px}
+.v-section--alt{background:linear-gradient(180deg,var(--bg-secondary),var(--bg-tertiary))}
+.v-section--alt2{background:linear-gradient(180deg,var(--bg-tertiary),var(--bg-secondary))}
+.v-section--alt3{background:linear-gradient(180deg,var(--bg-secondary),var(--bg-primary))}
+
+.v-section-inner{max-width:var(--max-width);margin:0 auto}
+.v-section-inner--narrow{max-width:850px;margin:0 auto}
+
+.v-label{display:inline-block;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:15px;padding:6px 16px;background:var(--gold-dim);border-radius:4px}
+.v-stitle{font-family:'Space Grotesk',sans-serif;font-size:30px;font-weight:700;color:var(--text-primary);margin-bottom:12px;line-height:1.2}
+.v-stitle span{color:var(--gold)}
+
+/* CHAPTERS */
+.v-chapters-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:25px}
+.v-chapter-card{display:flex;align-items:flex-start;gap:15px;padding:20px;background:var(--bg-card);border:1px solid rgba(255,255,255,.03);border-radius:var(--radius-md);transition:var(--transition)}
+.v-chapter-card:hover{border-color:var(--gold-border);background:rgba(212,175,55,.03);transform:translateX(4px)}
+.v-chapter-num{font-family:'Space Grotesk',sans-serif;font-size:13px;font-weight:700;color:var(--gold);background:var(--gold-dim);padding:5px 10px;border-radius:var(--radius-sm);white-space:nowrap}
+.v-chapter-info h3{font-family:'Space Grotesk',sans-serif;font-size:15px;font-weight:600;color:var(--text-primary);margin-bottom:4px}
+.v-chapter-info p{font-size:13px;color:var(--text-muted);line-height:1.5}
+
+/* KEY POINTS */
+.v-points{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:25px}
+.v-point{display:flex;align-items:flex-start;gap:12px;padding:18px;background:var(--bg-card);border:1px solid rgba(255,255,255,.03);border-radius:var(--radius-md)}
+.v-point-icon{font-size:22px;flex-shrink:0}
+.v-point h4{font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:600;color:var(--text-primary);margin-bottom:4px}
+.v-point p{font-size:12px;color:var(--text-muted);line-height:1.6}
+
+/* WHO FOR */
+.v-who-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:25px}
+.v-who-card{padding:20px;background:var(--bg-card);border:1px solid rgba(255,255,255,.03);border-radius:var(--radius-md);display:flex;align-items:flex-start;gap:12px}
+.v-who-emoji{font-size:28px;flex-shrink:0}
+.v-who-title{font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:600;color:var(--text-primary);margin-bottom:3px}
+.v-who-desc{font-size:12px;color:var(--text-muted);line-height:1.5}
+
+/* ALSO IN VAULT */
+.v-also{margin-top:30px}
+.v-also-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:20px}
+.v-also-card{padding:20px;background:var(--bg-card);border:1px solid rgba(255,255,255,.04);border-radius:var(--radius-md);transition:var(--transition);text-align:center}
+.v-also-card:hover{border-color:var(--gold-border);transform:translateY(-3px)}
+.v-also-emoji{font-size:32px;display:block;margin-bottom:8px}
+.v-also-title{font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:600;color:var(--text-primary);margin-bottom:4px}
+.v-also-price{font-size:12px;font-weight:700;color:var(--green);margin-bottom:10px}
+.v-also-link{font-size:12px;color:var(--gold);font-weight:600;display:inline-flex;align-items:center;gap:4px}
+.v-also-link:hover{color:var(--gold-light)}
+
+/* DOWNLOAD BOX */
+.v-download-box{
+  max-width:600px;margin:0 auto;padding:45px 35px;text-align:center;
+  background:linear-gradient(160deg,rgba(212,175,55,.08),rgba(212,175,55,.02));
+  border:1px solid rgba(212,175,55,.2);border-radius:var(--radius-xl);
+  position:relative;overflow:hidden;
+}
+.v-download-box::before{content:'';position:absolute;width:300px;height:300px;border-radius:50%;background:radial-gradient(circle,rgba(212,175,55,.04) 0%,transparent 70%);top:-120px;right:-120px;pointer-events:none}
+
+/* FOOTER */
+.v-footer{padding:40px 20px 25px;background:#07080a;border-top:1px solid rgba(212,175,55,.04)}
+.v-footer-inner{max-width:var(--max-width);margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:15px}
+.v-footer-brand{font-family:'Space Grotesk',sans-serif;font-size:15px;font-weight:700;color:var(--gold)}
+.v-footer-links{display:flex;gap:20px;flex-wrap:wrap}
+.v-footer-links a{font-size:13px;color:var(--text-dim)}
+.v-footer-links a:hover{color:var(--gold)}
+.v-footer-copy{width:100%;text-align:center;font-size:11px;color:var(--text-faint);margin-top:15px;padding-top:15px;border-top:1px solid rgba(255,255,255,.03)}
+
+/* WHATSAPP */
+.v-whatsapp{position:fixed;bottom:25px;right:25px;z-index:900;width:56px;height:56px;background:var(--whatsapp);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;color:white;box-shadow:0 4px 20px rgba(37,211,102,.4);transition:var(--transition-bounce)}
+.v-whatsapp:hover{transform:scale(1.1) translateY(-3px);box-shadow:0 8px 30px rgba(37,211,102,.5);color:white}
+
+/* ANIMATIONS */
+.v-animate{opacity:0;transform:translateY(25px);transition:opacity .7s ease,transform .7s ease}
+.v-animate.visible{opacity:1;transform:translateY(0)}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+  .v-nav-links{display:none}
+  .v-nav-toggle{display:flex}
+  .v-book-hero-inner{grid-template-columns:1fr;text-align:center}
+  .v-book-info h1{font-size:28px}
+  .v-book-meta{justify-content:center}
+  .v-book-cta-group{justify-content:center;flex-direction:column;align-items:stretch}
+  .v-book-note{text-align:center}
+  .v-chapters-grid,.v-points,.v-who-grid{grid-template-columns:1fr}
+  .v-also-grid{grid-template-columns:1fr}
+  .v-stitle{font-size:24px}
+  .v-btn-primary,.v-btn-secondary{width:100%;justify-content:center}
+  .v-footer-inner{flex-direction:column;text-align:center}
+  .v-footer-links{justify-content:center}
+}
+@media(max-width:480px){
+  .v-book-cover-visual{width:220px;height:300px}
+  .v-book-cover-emoji{font-size:48px}
+  .v-book-cover-title{font-size:16px}
+  .v-book-info h1{font-size:24px}
+  .v-whatsapp{width:50px;height:50px;font-size:24px;bottom:20px;right:20px}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="v-nav">
+  <div class="v-nav-inner">
+    <a href="index.html" class="v-nav-brand">
+      <span class="v-nav-logo">FreshClick<span class="v-nav-dot"></span></span>
+      <span class="v-nav-logo-sub">Vault</span>
+    </a>
+    <div class="v-nav-links">
+      <a href="index.html" class="v-nav-link">Store</a>
+      <a href="index.html#free-books" class="v-nav-link">Free Books</a>
+      <a href="index.html#business-box" class="v-nav-link">Business in a Box</a>
+      <a href="https://wa.me/263779674212" class="v-nav-link" target="_blank">Contact</a>
+      <a href="index.html#free-books" class="v-nav-cta">📥 Free Downloads</a>
+    </div>
+    <button class="v-nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="v-mobile-menu" id="mobileMenu">
+  <a href="index.html">🏪 Store</a>
+  <a href="index.html#free-books">📚 Free Books</a>
+  <a href="index.html#business-box">💼 Business in a Box</a>
+  <a href="https://wa.me/263779674212" target="_blank">💬 WhatsApp</a>
+</div>
+
+<!-- BREADCRUMB -->
+<div class="v-breadcrumb">
+  <div class="v-breadcrumb-inner">
+    <a href="index.html">Vault</a>
+    <span class="v-breadcrumb-sep">›</span>
+    <a href="index.html#free-books">Free Books</a>
+    <span class="v-breadcrumb-sep">›</span>
+    <span style="color:var(--gold)">Traffic Is The New Oil</span>
+  </div>
+</div>
+
+<!-- BOOK HERO -->
+<section class="v-book-hero">
+  <div class="v-book-hero-inner">
+    <div class="v-book-cover">
+      <div class="v-book-cover-visual">
+        <div class="v-book-spine"></div>
+        <span class="v-book-cover-badge">FREE</span>
+        <span class="v-book-cover-emoji">⛽</span>
+        <div class="v-book-cover-title">Traffic Is<br>The New Oil</div>
+        <div class="v-book-cover-author">FreshClick Media</div>
+      </div>
+    </div>
+    <div class="v-book-info">
+      <span class="v-label">Free Book — 2025 Edition</span>
+      <h1>Traffic Is The New Oil</h1>
+      <div class="v-book-subtitle">The African Digital Wealth Formula</div>
+      <p class="v-book-desc">
+        How Lumoras across the AfriSphere are turning <strong>free traffic</strong>, <strong>free tools</strong>, and <strong>strategic ads</strong> into real USD income — starting from <strong>₦0.00</strong>. This is not motivation. This is a complete, documented playbook with real case studies from Nigeria, Kenya, Ghana, South Africa, and beyond.
+      </p>
+      <div class="v-book-meta">
+        <span class="v-book-meta-item">📄 PDF Format</span>
+        <span class="v-book-meta-item">📖 6 Chapters + Appendices</span>
+        <span class="v-book-meta-item">🌍 2025 Edition</span>
+        <span class="v-book-meta-item">📱 Mobile Friendly</span>
+        <span class="v-book-meta-item">⚡ Instant Download</span>
+      </div>
+      <div class="v-book-price">FREE — $0.00</div>
+      <div class="v-book-cta-group">
+        <a href="assets/books/traffic-is-the-new-oil.pdf" class="v-btn-primary v-btn-green" download>📥 Download Free PDF</a>
+        <a href="https://wa.me/263779674212?text=Hi%2C%20I%20just%20downloaded%20Traffic%20Is%20The%20New%20Oil.%20I%20want%20to%20learn%20more." class="v-btn-secondary" target="_blank">💬 Ask Questions</a>
+      </div>
+      <p class="v-book-note">No email required. No sign-up. Click and download instantly. 🚀</p>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT YOU'LL LEARN -->
+<section class="v-section v-section--alt v-animate">
+  <div class="v-section-inner">
+    <span class="v-label">Inside The Book</span>
+    <h2 class="v-stitle">Chapter <span>Breakdown</span></h2>
+    <div class="v-chapters-grid">
+      <div class="v-chapter-card">
+        <span class="v-chapter-num">01</span>
+        <div class="v-chapter-info">
+          <h3>The Lumora Awakening</h3>
+          <p>Why Africa's digital moment is NOW. The numbers, the geopolitics, the currency crisis as opportunity. How the global ad market is literally paying for African eyeballs.</p>
+        </div>
+      </div>
+      <div class="v-chapter-card">
+        <span class="v-chapter-num">02</span>
+        <div class="v-chapter-info">
+          <h3>Traffic — The New Oil</h3>
+          <p>Complete free traffic playbook. Pinterest mastery, Google SEO fundamentals, YouTube Shorts strategy, TikTok organic reach. How to get thousands of visitors without spending a cent.</p>
+        </div>
+      </div>
+      <div class="v-chapter-card">
+        <span class="v-chapter-num">03</span>
+        <div class="v-chapter-info">
+          <h3>Ads — The Trillion-Dollar Industry</h3>
+          <p>CPM, CPC, RPM explained simply. Adsterra complete guide. AdSense application strategy. How to place ads for maximum revenue. Revenue optimization techniques.</p>
+        </div>
+      </div>
+      <div class="v-chapter-card">
+        <span class="v-chapter-num">04</span>
+        <div class="v-chapter-info">
+          <h3>Money — While NEPA Takes Light</h3>
+          <p>Passive income architecture. Currency liberation strategies. Payment setup guides for every major African country. How money enters your account while you sleep.</p>
+        </div>
+      </div>
+      <div class="v-chapter-card">
+        <span class="v-chapter-num">05</span>
+        <div class="v-chapter-info">
+          <h3>The Zero-Capital Blueprint</h3>
+          <p>Complete 90-day execution plan. Day-by-day breakdown. Niche selection framework. Every free tool listed and explained. The exact steps to go from zero to earning.</p>
+        </div>
+      </div>
+      <div class="v-chapter-card">
+        <span class="v-chapter-num">06</span>
+        <div class="v-chapter-info">
+          <h3>The AfriSphere Advantage</h3>
+          <p>Why the world wants African eyeballs. RPM trends and projections. The content gap. First-mover advantage. Geographic arbitrage explained. The future is African.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- KEY TAKEAWAYS -->
+<section class="v-section v-section--alt2 v-animate">
+  <div class="v-section-inner">
+    <span class="v-label">Key Takeaways</span>
+    <h2 class="v-stitle">What Makes This Book <span>Different</span></h2>
+    <div class="v-points">
+      <div class="v-point">
+        <span class="v-point-icon">🎯</span>
+        <div>
+          <h4>Zero Capital Required</h4>
+          <p>Every single tool in the formula is free. Blogger, Pinterest, Adsterra, Canva — all free, all mobile-friendly. You literally start with nothing.</p>
+        </div>
+      </div>
+      <div class="v-point">
+        <span class="v-point-icon">💵</span>
+        <div>
+          <h4>Earn in USD</h4>
+          <p>Ad networks pay in US dollars. Geographic arbitrage means $800/month USD becomes elite-level income across most of Africa.</p>
+        </div>
+      </div>
+      <div class="v-point">
+        <span class="v-point-icon">📱</span>
+        <div>
+          <h4>Smartphone Only</h4>
+          <p>Real case study: $4,200/month built on a Redmi phone and a Glo night plan. No laptop, no fancy setup needed.</p>
+        </div>
+      </div>
+      <div class="v-point">
+        <span class="v-point-icon">📊</span>
+        <div>
+          <h4>Real Case Studies</h4>
+          <p>Documented results from Port Harcourt, Nairobi, Accra, and Johannesburg. Not theory — real numbers from real Lumoras.</p>
+        </div>
+      </div>
+      <div class="v-point">
+        <span class="v-point-icon">🔄</span>
+        <div>
+          <h4>Passive Income</h4>
+          <p>Build once, earn continuously. Your blog works 24/7 even when NEPA takes light, even while you sleep or study.</p>
+        </div>
+      </div>
+      <div class="v-point">
+        <span class="v-point-icon">🗺️</span>
+        <div>
+          <h4>Africa-Specific</h4>
+          <p>Not a Western playbook adapted for Africa. Written FROM Africa FOR Africa. Country-specific payment guides included.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHO IS THIS FOR -->
+<section class="v-section v-section--alt v-animate">
+  <div class="v-section-inner">
+    <span class="v-label">Perfect For</span>
+    <h2 class="v-stitle">This Book Is For <span>You</span> If...</h2>
+    <div class="v-who-grid">
+      <div class="v-who-card">
+        <span class="v-who-emoji">🎓</span>
+        <div>
+          <div class="v-who-title">Students</div>
+          <div class="v-who-desc">University or polytechnic student who needs USD income while studying. 45 minutes a day is enough.</div>
+        </div>
+      </div>
+      <div class="v-who-card">
+        <span class="v-who-emoji">💼</span>
+        <div>
+          <div class="v-who-title">9-to-5 Workers</div>
+          <div class="v-who-desc">You have a job but your salary doesn't match the economy. Build a passive income stream on the side.</div>
+        </div>
+      </div>
+      <div class="v-who-card">
+        <span class="v-who-emoji">🏠</span>
+        <div>
+          <div class="v-who-title">Stay-at-Home Parents</div>
+          <div class="v-who-desc">Earn real income from home while managing family. No commute, no boss, no office politics.</div>
+        </div>
+      </div>
+      <div class="v-who-card">
+        <span class="v-who-emoji">🔥</span>
+        <div>
+          <div class="v-who-title">Hustlers Ready for Digital</div>
+          <div class="v-who-desc">You've been grinding offline. This is how you add a digital income stream that works while you sleep.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DOWNLOAD CTA -->
+<section class="v-section v-section--alt3 v-animate">
+  <div class="v-section-inner--narrow">
+    <div class="v-download-box">
+      <span class="v-label">Ready?</span>
+      <h2 class="v-stitle" style="margin-top:10px">Download <span>Now</span></h2>
+      <p style="font-size:14px;color:var(--text-muted);margin:12px 0 22px;line-height:1.7">
+        The formula is simple. The tools are free. The window is open.<br>All you need is the knowledge — and it is in this book.
+      </p>
+      <div style="display:flex;flex-direction:column;align-items:center;gap:12px">
+        <a href="assets/books/traffic-is-the-new-oil.pdf" class="v-btn-primary v-btn-green" download style="min-width:280px">📥 Download Free PDF</a>
+        <a href="https://wa.me/263779674212?text=Hi%2C%20I%20just%20downloaded%20Traffic%20Is%20The%20New%20Oil!" class="v-btn-secondary" target="_blank" style="min-width:280px">💬 Join the Conversation</a>
+      </div>
+      <p style="font-size:11px;color:var(--text-dim);margin-top:15px;font-style:italic">No email. No sign-up. Instant download. 🌍</p>
+    </div>
+  </div>
+</section>
+
+<!-- ALSO IN VAULT -->
+<section class="v-section v-section--alt v-animate">
+  <div class="v-section-inner">
+    <span class="v-label">Also in The Vault</span>
+    <h2 class="v-stitle">Continue Your <span>Journey</span></h2>
+    <div class="v-also-grid">
+      <a href="download-pinterest-goldmine.html" class="v-also-card">
+        <span class="v-also-emoji">📌</span>
+        <div class="v-also-title">Pinterest Goldmine</div>
+        <div class="v-also-price">FREE</div>
+        <span class="v-also-link">Download →</span>
+      </a>
+      <a href="download-adsterra-decoded.html" class="v-also-card">
+        <span class="v-also-emoji">💰</span>
+        <div class="v-also-title">Adsterra Decoded</div>
+        <div class="v-also-price">FREE</div>
+        <span class="v-also-link">Download →</span>
+      </a>
+      <a href="download-blog-like-a-lumora.html" class="v-also-card">
+        <span class="v-also-emoji">📝</span>
+        <div class="v-also-title">Blog Like a Lumora</div>
+        <div class="v-also-price">FREE</div>
+        <span class="v-also-link">Download →</span>
+      </a>
+      <a href="download-niche-finder.html" class="v-also-card">
+        <span class="v-also-emoji">🎯</span>
+        <div class="v-also-title">The Niche Finder</div>
+        <div class="v-also-price">FREE</div>
+        <span class="v-also-link">Download →</span>
+      </a>
+      <a href="download-currency-liberation.html" class="v-also-card">
+        <span class="v-also-emoji">💳</span>
+        <div class="v-also-title">Currency Liberation</div>
+        <div class="v-also-price">FREE</div>
+        <span class="v-also-link">Download →</span>
+      </a>
+      <a href="index.html#business-box" class="v-also-card" style="border-color:rgba(212,175,55,.2);background:rgba(212,175,55,.03)">
+        <span class="v-also-emoji">💼</span>
+        <div class="v-also-title">Business in a Box</div>
+        <div class="v-also-price" style="color:var(--gold)">From $27</div>
+        <span class="v-also-link">View Packages →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="v-footer">
+  <div class="v-footer-inner">
+    <a href="index.html" class="v-footer-brand">FreshClick Vault 🔓</a>
+    <div class="v-footer-links">
+      <a href="index.html">Store</a>
+      <a href="index.html#free-books">Free Books</a>
+      <a href="index.html#business-box">Business Box</a>
+      <a href="https://wa.me/263779674212" target="_blank">WhatsApp</a>
+    </div>
+    <div class="v-footer-copy">© 2025 FreshClick Media. All rights reserved. FreshClick Vault is a division of FreshClick Media.</div>
+  </div>
+</footer>
+
+<a href="https://wa.me/263779674212?text=Hi%20FreshClick%20Vault!" class="v-whatsapp" target="_blank" aria-label="WhatsApp">💬</a>
+
+<script>
+(function(){
+var t=document.getElementById('navToggle'),m=document.getElementById('mobileMenu');
+if(t&&m){t.addEventListener('click',function(e){e.stopPropagation();t.classList.toggle('active');m.classList.toggle('active')});document.addEventListener('click',function(e){if(!m.contains(e.target)&&!t.contains(e.target)){t.classList.remove('active');m.classList.remove('active')}});m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){t.classList.remove('active');m.classList.remove('active')})})}
+if('IntersectionObserver' in window){var o=new IntersectionObserver(function(e){e.forEach(function(en){if(en.isIntersecting){en.target.classList.add('visible');o.unobserve(en.target)}})},{threshold:.1});document.querySelectorAll('.v-animate').forEach(function(el){o.observe(el)})}else{document.querySelectorAll('.v-animate').forEach(function(el){el.classList.add('visible')})}
+})();
+</script>
+</body>
+</html>
