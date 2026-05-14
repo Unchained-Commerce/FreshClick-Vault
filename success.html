@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<title>Success! | FreshClick Vault</title>
+<meta name="description" content="Your order or download has been confirmed. Welcome to the FreshClick Vault family.">
+<meta name="author" content="FreshClick Media">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;font-size:16px}
+body{font-family:'Plus Jakarta Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0a0b0f;color:#e8e0d4;line-height:1.7;overflow-x:hidden;-webkit-font-smoothing:antialiased;min-height:100vh}
+a{text-decoration:none;color:inherit;transition:all .3s ease}
+img{max-width:100%;height:auto;display:block}
+button{border:none;background:none;cursor:pointer;font-family:inherit}
+
+:root{
+--gold:#d4af37;--gold-light:#f4d03f;--gold-dark:#c27803;
+--gold-dim:rgba(212,175,55,.08);--gold-border:rgba(212,175,55,.15);
+--bg-primary:#0a0b0f;--bg-secondary:#0d1117;--bg-tertiary:#111827;
+--bg-card:rgba(255,255,255,.02);
+--text-primary:#e8e0d4;--text-secondary:#b8a99a;--text-muted:#8a7e70;
+--text-dim:#6b6358;--text-faint:#4a4339;
+--green:#4ade80;--green-dim:rgba(74,222,128,.08);--green-border:rgba(74,222,128,.2);
+--blue:#5b9bd5;--orange:#e8943a;--purple:#a78bfa;--cyan:#22d3ee;
+--red:#ef4444;
+--whatsapp:#25D366;
+--radius-sm:6px;--radius-md:10px;--radius-lg:14px;--radius-xl:20px;--radius-full:50px;
+--shadow-md:0 4px 25px rgba(0,0,0,.3);--shadow-gold:0 4px 25px rgba(212,175,55,.3);
+--transition:all .3s cubic-bezier(.4,0,.2,1);
+--transition-bounce:all .4s cubic-bezier(.175,.885,.32,1.275);
+--max-width:1100px;
+}
+
+/* ============================================
+   NAV
+   ============================================ */
+.v-nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:0 20px;background:rgba(10,11,15,.96);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border-bottom:1px solid var(--gold-border)}
+.v-nav-inner{max-width:var(--max-width);margin:0 auto;display:flex;align-items:center;justify-content:space-between;height:68px}
+.v-nav-brand{display:flex;align-items:center;gap:6px}
+.v-nav-logo{font-family:'Space Grotesk',sans-serif;font-size:19px;font-weight:700;color:var(--gold)}
+.v-nav-logo-sub{font-size:11px;font-weight:600;color:var(--text-dim);letter-spacing:2px;text-transform:uppercase;padding:2px 8px;background:var(--gold-dim);border-radius:3px;margin-left:2px}
+.v-nav-dot{display:inline-block;width:7px;height:7px;background:var(--gold);border-radius:50%;animation:dotP 2s ease-in-out infinite}
+@keyframes dotP{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.8)}}
+.v-nav-links{display:flex;align-items:center;gap:25px}
+.v-nav-link{font-size:13px;font-weight:500;color:var(--text-muted)}.v-nav-link:hover{color:var(--gold)}
+.v-nav-cta{display:inline-flex;align-items:center;gap:6px;padding:9px 18px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:var(--bg-primary);font-size:12px;font-weight:700;border-radius:var(--radius-sm);text-transform:uppercase;letter-spacing:1px;transition:var(--transition-bounce)}
+.v-nav-cta:hover{transform:translateY(-2px);box-shadow:var(--shadow-gold);color:var(--bg-primary)}
+.v-nav-toggle{display:none;flex-direction:column;gap:5px;padding:5px}
+.v-nav-toggle span{width:22px;height:2px;background:var(--gold);display:block;transition:var(--transition)}
+.v-nav-toggle.active span:nth-child(1){transform:rotate(45deg) translate(5px,5px)}
+.v-nav-toggle.active span:nth-child(2){opacity:0}
+.v-nav-toggle.active span:nth-child(3){transform:rotate(-45deg) translate(5px,-5px)}
+.v-mobile-menu{display:none;position:fixed;top:68px;left:0;right:0;background:rgba(10,11,15,.98);backdrop-filter:blur(20px);padding:15px 20px;border-bottom:1px solid var(--gold-border);z-index:999;flex-direction:column;gap:8px}
+.v-mobile-menu.active{display:flex}
+.v-mobile-menu a{display:block;padding:12px 15px;font-size:14px;color:var(--text-secondary);border-bottom:1px solid rgba(255,255,255,.03)}
+.v-mobile-menu a:hover{color:var(--gold);padding-left:20px}
+
+/* ============================================
+   MAIN SUCCESS PAGE
+   ============================================ */
+.sx-page{min-height:100vh;padding:100px 20px 40px;position:relative;overflow:hidden;background:linear-gradient(160deg,#0a0b0f 0%,#0d1117 30%,#111827 60%,#0a0b0f 100%)}
+.sx-page::before{content:'';position:absolute;inset:0;pointer-events:none}
+
+/* Celebratory particles */
+.sx-particle{position:absolute;width:4px;height:4px;border-radius:50%;pointer-events:none;opacity:0}
+.sx-particle:nth-child(1){background:var(--gold);left:10%;animation:pRise 7s linear infinite 0s}
+.sx-particle:nth-child(2){background:var(--green);left:20%;animation:pRise 5s linear infinite .5s}
+.sx-particle:nth-child(3){background:var(--gold);left:35%;animation:pRise 8s linear infinite 1s}
+.sx-particle:nth-child(4){background:var(--cyan);left:50%;animation:pRise 6s linear infinite 1.5s}
+.sx-particle:nth-child(5){background:var(--gold);left:65%;animation:pRise 7s linear infinite 2s}
+.sx-particle:nth-child(6){background:var(--green);left:75%;animation:pRise 5s linear infinite 2.5s}
+.sx-particle:nth-child(7){background:var(--purple);left:85%;animation:pRise 9s linear infinite 3s}
+.sx-particle:nth-child(8){background:var(--gold);left:45%;animation:pRise 6s linear infinite 3.5s}
+.sx-particle:nth-child(9){background:var(--orange);left:15%;animation:pRise 8s linear infinite 4s}
+.sx-particle:nth-child(10){background:var(--gold);left:90%;animation:pRise 7s linear infinite 1.2s}
+@keyframes pRise{0%{bottom:-5%;opacity:0;transform:translateX(0) scale(1)}15%{opacity:.7}50%{opacity:.3;transform:translateX(25px) scale(1.5)}85%{opacity:.1}100%{bottom:105%;opacity:0;transform:translateX(-15px) scale(.5)}}
+
+/* ============================================
+   SUCCESS HERO — MAIN BLOCK
+   ============================================ */
+.sx-hero{max-width:700px;margin:0 auto 50px;text-align:center;position:relative;z-index:1}
+
+/* Animated checkmark circle */
+.sx-check-wrap{margin:0 auto 25px;width:100px;height:100px;position:relative}
+.sx-check-circle{width:100px;height:100px;border-radius:50%;position:relative;animation:checkPop .6s cubic-bezier(.175,.885,.32,1.275) forwards}
+@keyframes checkPop{0%{transform:scale(0);opacity:0}60%{transform:scale(1.15)}100%{transform:scale(1);opacity:1}}
+
+/* For books — green circle */
+.sx-check-circle.book-mode{background:linear-gradient(135deg,rgba(74,222,128,.15),rgba(74,222,128,.05));border:2px solid rgba(74,222,128,.3);box-shadow:0 0 40px rgba(74,222,128,.15)}
+/* For boxes — gold circle */
+.sx-check-circle.box-mode{background:linear-gradient(135deg,rgba(212,175,55,.15),rgba(212,175,55,.05));border:2px solid rgba(212,175,55,.3);box-shadow:0 0 40px rgba(212,175,55,.15)}
+
+.sx-check-emoji{font-size:48px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);animation:emojiDrop .5s cubic-bezier(.175,.885,.32,1.275) .3s both}
+@keyframes emojiDrop{0%{opacity:0;transform:translate(-50%,-80%)}100%{opacity:1;transform:translate(-50%,-50%)}}
+
+/* Confetti burst ring */
+.sx-ring{position:absolute;inset:-15px;border-radius:50%;border:2px solid transparent;animation:ringExpand .8s ease-out .2s both}
+@keyframes ringExpand{0%{transform:scale(.5);opacity:1;border-color:rgba(212,175,55,.4)}100%{transform:scale(1.8);opacity:0;border-color:rgba(212,175,55,0)}}
+.sx-ring-2{animation-delay:.4s}
+.sx-ring-2.book-ring{border-color:rgba(74,222,128,.3)}
+.sx-ring-2.box-ring{border-color:rgba(212,175,55,.3)}
+
+.sx-greeting{font-size:14px;color:var(--text-muted);margin-bottom:6px;animation:fadeUp .6s ease .5s both}
+@keyframes fadeUp{0%{opacity:0;transform:translateY(15px)}100%{opacity:1;transform:translateY(0)}}
+
+.sx-headline{font-family:'Space Grotesk',sans-serif;font-size:36px;font-weight:800;line-height:1.15;margin-bottom:10px;animation:fadeUp .6s ease .6s both}
+.sx-headline.book-head{color:var(--green)}
+.sx-headline.box-head{background:linear-gradient(135deg,var(--gold),var(--gold-light));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+
+.sx-subline{font-size:16px;color:var(--text-secondary);margin-bottom:25px;line-height:1.6;animation:fadeUp .6s ease .7s both}
+.sx-subline strong{color:var(--gold);font-weight:600}
+
+/* Product card */
+.sx-product{max-width:480px;margin:0 auto 30px;padding:28px 24px;border-radius:var(--radius-xl);text-align:center;animation:fadeUp .6s ease .8s both;position:relative;overflow:hidden}
+.sx-product.book-card{background:linear-gradient(160deg,rgba(74,222,128,.08),rgba(74,222,128,.02));border:1px solid var(--green-border)}
+.sx-product.box-card{background:linear-gradient(160deg,rgba(212,175,55,.08),rgba(212,175,55,.02));border:1px solid var(--gold-border)}
+.sx-product::before{content:'';position:absolute;top:0;right:0;width:150px;height:150px;background:radial-gradient(circle,rgba(255,255,255,.02) 0%,transparent 70%);pointer-events:none}
+
+.sx-prod-emoji{font-size:44px;margin-bottom:12px;display:block}
+.sx-prod-title{font-family:'Space Grotesk',sans-serif;font-size:20px;font-weight:700;color:var(--text-primary);margin-bottom:4px}
+.sx-prod-sub{font-size:13px;color:var(--text-muted);margin-bottom:16px;font-style:italic}
+
+/* Email display (books) */
+.sx-email-block{display:none;margin-bottom:18px}
+.sx-email-label{font-size:12px;color:var(--text-dim);margin-bottom:4px}
+.sx-email-value{font-family:'Space Grotesk',sans-serif;font-size:15px;font-weight:600;color:var(--text-primary);background:var(--bg-card);padding:10px 18px;border-radius:var(--radius-md);border:1px solid rgba(255,255,255,.06);display:inline-block;word-break:break-all}
+
+/* Status badge */
+.sx-status{display:inline-flex;align-items:center;gap:6px;padding:6px 16px;border-radius:var(--radius-full);font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:14px}
+.sx-status.book-status{background:var(--green-dim);color:var(--green);border:1px solid var(--green-border)}
+.sx-status.box-status{background:var(--gold-dim);color:var(--gold);border:1px solid var(--gold-border)}
+
+/* ============================================
+   NEXT STEPS
+   ============================================ */
+.sx-steps{max-width:650px;margin:0 auto 40px;animation:fadeUp .6s ease .9s both;position:relative;z-index:1}
+.sx-steps-title{font-family:'Space Grotesk',sans-serif;font-size:20px;font-weight:700;color:var(--text-primary);text-align:center;margin-bottom:18px}
+.sx-steps-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.sx-step{padding:20px 14px;background:var(--bg-card);border:1px solid rgba(255,255,255,.04);border-radius:var(--radius-md);text-align:center;transition:var(--transition)}
+.sx-step:hover{border-color:var(--gold-border);transform:translateY(-3px)}
+.sx-step-num{font-family:'Space Grotesk',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;margin-bottom:8px;display:block}
+.sx-step-num.book-num{color:var(--green)}
+.sx-step-num.box-num{color:var(--gold)}
+.sx-step-emoji{font-size:26px;display:block;margin-bottom:8px}
+.sx-step-title{font-family:'Space Grotesk',sans-serif;font-size:13px;font-weight:600;color:var(--text-primary);margin-bottom:3px}
+.sx-step-desc{font-size:11px;color:var(--text-muted);line-height:1.4}
+
+/* ============================================
+   SPAM NOTICE (books only)
+   ============================================ */
+.sx-spam{display:none;max-width:500px;margin:0 auto 30px;padding:18px 20px;background:rgba(232,148,58,.06);border:1px solid rgba(232,148,58,.15);border-radius:var(--radius-md);text-align:center;animation:fadeUp .6s ease 1s both;position:relative;z-index:1}
+.sx-spam-title{font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:700;color:var(--orange);margin-bottom:4px}
+.sx-spam-text{font-size:12px;color:var(--text-muted);line-height:1.6}
+.sx-spam-text a{color:var(--gold);text-decoration:underline}
+
+/* ============================================
+   WHATSAPP SUPPORT (boxes only)
+   ============================================ */
+.sx-wa-support{display:none;max-width:500px;margin:0 auto 30px;padding:18px 20px;background:rgba(37,211,102,.06);border:1px solid rgba(37,211,102,.15);border-radius:var(--radius-md);text-align:center;animation:fadeUp .6s ease 1s both;position:relative;z-index:1}
+.sx-wa-title{font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:700;color:var(--whatsapp);margin-bottom:4px}
+.sx-wa-text{font-size:12px;color:var(--text-muted);line-height:1.6;margin-bottom:12px}
+.sx-wa-btn{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;background:linear-gradient(135deg,var(--whatsapp),#1ea952);color:white;font-size:13px;font-weight:700;border-radius:var(--radius-md);text-transform:uppercase;letter-spacing:1px;transition:var(--transition-bounce)}
+.sx-wa-btn:hover{transform:translateY(-2px);box-shadow:0 4px 20px rgba(37,211,102,.3);color:white}
+
+/* ============================================
+   UPSELL SECTION (books → boxes)
+   ============================================ */
+.sx-upsell{display:none;max-width:600px;margin:0 auto 40px;padding:30px 24px;background:linear-gradient(160deg,rgba(212,175,55,.08),rgba(212,175,55,.02));border:1px solid var(--gold-border);border-radius:var(--radius-xl);text-align:center;position:relative;overflow:hidden;z-index:1;animation:fadeUp .6s ease 1.1s both}
+.sx-upsell::before{content:'';position:absolute;top:0;right:0;width:200px;height:200px;background:radial-gradient(circle,rgba(212,175,55,.04) 0%,transparent 70%);pointer-events:none}
+.sx-upsell-badge{display:inline-flex;align-items:center;gap:6px;padding:5px 14px;background:var(--gold-dim);border-radius:var(--radius-full);font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--gold);margin-bottom:14px;position:relative;z-index:1}
+.sx-upsell-title{font-family:'Space Grotesk',sans-serif;font-size:20px;font-weight:700;color:var(--text-primary);margin-bottom:8px;position:relative;z-index:1}
+.sx-upsell-title span{color:var(--gold)}
+.sx-upsell-desc{font-size:13px;color:var(--text-muted);margin-bottom:20px;line-height:1.7;position:relative;z-index:1}
+.sx-upsell-tiers{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:18px;position:relative;z-index:1}
+.sx-upsell-tier{padding:14px;background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.05);border-radius:var(--radius-md);text-align:left;transition:var(--transition)}
+.sx-upsell-tier:hover{border-color:var(--gold-border)}
+.sx-ut-name{font-family:'Space Grotesk',sans-serif;font-size:13px;font-weight:700;color:var(--gold);margin-bottom:2px}
+.sx-ut-price{font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:800;color:var(--text-primary)}
+.sx-ut-desc{font-size:10px;color:var(--text-dim);margin-top:3px}
+.sx-upsell-cta{display:inline-flex;align-items:center;gap:8px;padding:14px 30px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:var(--bg-primary);font-size:14px;font-weight:700;border-radius:var(--radius-md);text-transform:uppercase;letter-spacing:1px;transition:var(--transition-bounce);position:relative;z-index:1}
+.sx-upsell-cta:hover{transform:translateY(-2px);box-shadow:var(--shadow-gold);color:var(--bg-primary)}
+
+/* ============================================
+   CROSS-SELL (boxes → books)
+   ============================================ */
+.sx-cross{display:none;max-width:600px;margin:0 auto 40px;text-align:center;position:relative;z-index:1;animation:fadeUp .6s ease 1.1s both}
+.sx-cross-title{font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:700;color:var(--text-primary);margin-bottom:6px}
+.sx-cross-desc{font-size:13px;color:var(--text-muted);margin-bottom:18px}
+.sx-cross-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.sx-cross-card{padding:18px 12px;background:var(--bg-card);border:1px solid rgba(255,255,255,.04);border-radius:var(--radius-md);text-align:center;transition:var(--transition)}
+.sx-cross-card:hover{border-color:var(--green-border);transform:translateY(-3px)}
+.sx-cc-emoji{font-size:26px;display:block;margin-bottom:6px}
+.sx-cc-name{font-size:12px;font-weight:600;color:var(--text-primary);margin-bottom:3px}
+.sx-cc-tag{font-size:10px;font-weight:700;color:var(--green);background:var(--green-dim);padding:2px 8px;border-radius:var(--radius-full)}
+
+/* ============================================
+   SOCIAL SHARE
+   ============================================ */
+.sx-share{max-width:500px;margin:0 auto 40px;text-align:center;position:relative;z-index:1;animation:fadeUp .6s ease 1.2s both}
+.sx-share-title{font-family:'Space Grotesk',sans-serif;font-size:16px;font-weight:700;color:var(--text-primary);margin-bottom:12px}
+.sx-share-btns{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+.sx-share-btn{display:inline-flex;align-items:center;gap:6px;padding:10px 18px;background:var(--bg-card);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius-md);font-size:12px;font-weight:600;color:var(--text-muted);transition:var(--transition)}
+.sx-share-btn:hover{border-color:var(--gold-border);color:var(--gold);background:var(--gold-dim);transform:translateY(-2px)}
+
+/* ============================================
+   BACK BUTTONS
+   ============================================ */
+.sx-actions{max-width:500px;margin:0 auto;display:flex;flex-wrap:wrap;justify-content:center;gap:12px;position:relative;z-index:1;animation:fadeUp .6s ease 1.3s both}
+.sx-btn-primary{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 30px;background:linear-gradient(135deg,var(--gold),var(--gold-dark));color:var(--bg-primary);font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:700;border-radius:var(--radius-md);text-transform:uppercase;letter-spacing:1px;transition:var(--transition-bounce);min-width:200px}
+.sx-btn-primary:hover{transform:translateY(-2px);box-shadow:var(--shadow-gold);color:var(--bg-primary)}
+.sx-btn-secondary{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:14px 24px;background:transparent;color:var(--text-muted);font-size:13px;font-weight:600;border-radius:var(--radius-md);border:1px solid rgba(255,255,255,.08);transition:var(--transition)}
+.sx-btn-secondary:hover{border-color:var(--gold-border);color:var(--gold);background:var(--gold-dim)}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+.ft{padding:35px 20px 22px;background:#07080a;border-top:1px solid rgba(212,175,55,.04)}
+.ft-inner{max-width:var(--max-width);margin:0 auto;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.ft-brand{font-family:'Space Grotesk',sans-serif;font-size:14px;font-weight:700;color:var(--gold)}
+.ft-copy{font-size:11px;color:var(--text-faint)}
+.ft-links{display:flex;gap:16px;flex-wrap:wrap}
+.ft-links a{font-size:12px;color:var(--text-dim)}.ft-links a:hover{color:var(--gold)}
+
+/* WHATSAPP FLOAT */
+.wa{position:fixed;bottom:25px;right:25px;z-index:900;width:56px;height:56px;background:var(--whatsapp);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:28px;color:white;box-shadow:0 4px 20px rgba(37,211,102,.4);transition:var(--transition-bounce)}
+.wa:hover{transform:scale(1.1) translateY(-3px);box-shadow:0 8px 30px rgba(37,211,102,.5);color:white}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+@media(max-width:768px){
+.v-nav-links{display:none}.v-nav-toggle{display:flex}
+.sx-headline{font-size:28px}
+.sx-steps-grid{grid-template-columns:1fr 1fr}
+.sx-upsell-tiers{grid-template-columns:1fr}
+.sx-cross-grid{grid-template-columns:1fr}
+.sx-share-btns{flex-direction:column;align-items:center}
+.sx-actions{flex-direction:column;align-items:center}
+.ft-inner{flex-direction:column;text-align:center}
+}
+@media(max-width:480px){
+.sx-page{padding:80px 15px 30px}
+.sx-headline{font-size:24px}
+.sx-check-wrap{width:80px;height:80px}
+.sx-check-circle{width:80px;height:80px}
+.sx-check-emoji{font-size:38px}
+.sx-steps-grid{grid-template-columns:1fr}
+.sx-product{padding:22px 18px}
+.wa{width:50px;height:50px;font-size:24px;bottom:20px;right:20px}
+.sx-particle{display:none}
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<nav class="v-nav">
+  <div class="v-nav-inner">
+    <a href="index.html" class="v-nav-brand"><span class="v-nav-logo">FreshClick<span class="v-nav-dot"></span></span><span class="v-nav-logo-sub">Vault</span></a>
+    <div class="v-nav-links">
+      <a href="index.html" class="v-nav-link">Store</a>
+      <a href="index.html#free-books" class="v-nav-link">Free Books</a>
+      <a href="index.html#business-box" class="v-nav-link">Business in a Box</a>
+      <a href="https://wa.me/263779674212" class="v-nav-link" target="_blank">Contact</a>
+      <a href="index.html" class="v-nav-cta">🏪 Store</a>
+    </div>
+    <button class="v-nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="v-mobile-menu" id="mobileMenu">
+  <a href="index.html">🏪 Store</a><a href="index.html#free-books">📚 Free Books</a><a href="index.html#business-box">💼 Business in a Box</a><a href="https://wa.me/263779674212" target="_blank">💬 WhatsApp</a>
+</div>
+
+<!-- ============================================
+     MAIN SUCCESS PAGE
+     ============================================ -->
+<section class="sx-page">
+  <!-- Particles -->
+  <div class="sx-particle"></div><div class="sx-particle"></div><div class="sx-particle"></div>
+  <div class="sx-particle"></div><div class="sx-particle"></div><div class="sx-particle"></div>
+  <div class="sx-particle"></div><div class="sx-particle"></div><div class="sx-particle"></div>
+  <div class="sx-particle"></div>
+
+  <!-- ============================================
+       SUCCESS HERO
+       ============================================ -->
+  <div class="sx-hero">
+    <!-- Animated check -->
+    <div class="sx-check-wrap">
+      <div class="sx-check-circle" id="checkCircle">
+        <span class="sx-check-emoji" id="checkEmoji">✅</span>
+      </div>
+      <div class="sx-ring" id="ring1"></div>
+      <div class="sx-ring sx-ring-2" id="ring2"></div>
+    </div>
+
+    <div class="sx-greeting" id="greeting">Hey there 👋</div>
+    <h1 class="sx-headline" id="headline">Success!</h1>
+    <p class="sx-subline" id="subline">Your request has been confirmed.</p>
+
+    <!-- Product Card -->
+    <div class="sx-product" id="productCard">
+      <span class="sx-status" id="statusBadge">✅ Confirmed</span>
+      <span class="sx-prod-emoji" id="prodEmoji">📦</span>
+      <div class="sx-prod-title" id="prodTitle">Your Product</div>
+      <div class="sx-prod-sub" id="prodSub">Details here</div>
+
+      <!-- Email (books only) -->
+      <div class="sx-email-block" id="emailBlock">
+        <div class="sx-email-label">Sent to:</div>
+        <div class="sx-email-value" id="emailValue">you@email.com</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================
+       NEXT STEPS
+       ============================================ -->
+  <div class="sx-steps" id="stepsSection">
+    <div class="sx-steps-title" id="stepsTitle">What To Do Next</div>
+    <div class="sx-steps-grid" id="stepsGrid">
+      <!-- Populated by JS -->
+    </div>
+  </div>
+
+  <!-- Spam notice (books) -->
+  <div class="sx-spam" id="spamNotice">
+    <div class="sx-spam-title">📧 Check Your Spam Folder</div>
+    <div class="sx-spam-text">
+      Didn't get the email? Check your <strong>spam</strong> or <strong>promotions</strong> folder.
+      Still nothing after 5 minutes? <a href="https://wa.me/263779674212?text=Hi%2C%20I%20submitted%20my%20email%20for%20a%20free%20book%20but%20haven't%20received%20it." target="_blank">Message us on WhatsApp</a> and we'll resend.
+    </div>
+  </div>
+
+  <!-- WhatsApp support (boxes) -->
+  <div class="sx-wa-support" id="waSupport">
+    <div class="sx-wa-title">💬 We're Building Your Business Now</div>
+    <div class="sx-wa-text" id="waText">Our team has started working on your package. You'll receive updates on WhatsApp as we progress. Expected delivery: 48-72 hours.</div>
+    <a href="https://wa.me/263779674212" class="sx-wa-btn" target="_blank" id="waBtn">💬 Chat With Our Team</a>
+  </div>
+
+  <!-- Upsell: Books → Boxes -->
+  <div class="sx-upsell" id="upsellSection">
+    <div class="sx-upsell-badge">💼 Skip The Learning Curve</div>
+    <div class="sx-upsell-title">Want It All <span>Done For You?</span></div>
+    <div class="sx-upsell-desc">You've got the knowledge. Now let us build the business. Blog + ads + social — ready to earn.</div>
+    <div class="sx-upsell-tiers">
+      <div class="sx-upsell-tier"><div class="sx-ut-name">Starter Box</div><div class="sx-ut-price">$27</div><div class="sx-ut-desc">Blog + Adsterra + 1 social</div></div>
+      <div class="sx-upsell-tier"><div class="sx-ut-name">Growth Box ⭐</div><div class="sx-ut-price">$67</div><div class="sx-ut-desc">+ 3 socials + 10 posts</div></div>
+      <div class="sx-upsell-tier"><div class="sx-ut-name">Empire Box</div><div class="sx-ut-price">$127</div><div class="sx-ut-desc">+ 25 posts + Pinterest + support</div></div>
+      <div class="sx-upsell-tier"><div class="sx-ut-name">Mogul Box</div><div class="sx-ut-price">$247</div><div class="sx-ut-desc">All 8 platforms + mentorship</div></div>
+    </div>
+    <a href="https://wa.me/263779674212?text=Hi%20FreshClick%20Vault%2C%20I%20just%20downloaded%20a%20free%20book%20and%20I'm%20interested%20in%20Business%20in%20a%20Box." class="sx-upsell-cta" target="_blank">💬 Order on WhatsApp</a>
+  </div>
+
+  <!-- Cross-sell: Boxes → Books -->
+  <div class="sx-cross" id="crossSection">
+    <div class="sx-cross-title">📚 While You Wait — Free Books</div>
+    <div class="sx-cross-desc">Download these free guides to supercharge your new business:</div>
+    <div class="sx-cross-grid">
+      <a href="download.html?book=traffic-is-the-new-oil" class="sx-cross-card"><span class="sx-cc-emoji">⛽</span><div class="sx-cc-name">Traffic Is The New Oil</div><span class="sx-cc-tag">Free</span></a>
+      <a href="download.html?book=pinterest-goldmine" class="sx-cross-card"><span class="sx-cc-emoji">📌</span><div class="sx-cc-name">Pinterest Goldmine</div><span class="sx-cc-tag">Free</span></a>
+      <a href="download.html?book=adsterra-decoded" class="sx-cross-card"><span class="sx-cc-emoji">💰</span><div class="sx-cc-name">Adsterra Decoded</div><span class="sx-cc-tag">Free</span></a>
+      <a href="download.html?book=niche-finder" class="sx-cross-card"><span class="sx-cc-emoji">🎯</span><div class="sx-cc-name">The Niche Finder</div><span class="sx-cc-tag">Free</span></a>
+      <a href="download.html?book=blog-like-a-lumora" class="sx-cross-card"><span class="sx-cc-emoji">📝</span><div class="sx-cc-name">Blog Like a Lumora</div><span class="sx-cc-tag">Free</span></a>
+      <a href="download.html?book=currency-liberation" class="sx-cross-card"><span class="sx-cc-emoji">💳</span><div class="sx-cc-name">Currency Liberation</div><span class="sx-cc-tag">Free</span></a>
+    </div>
+  </div>
+
+  <!-- Share -->
+  <div class="sx-share">
+    <div class="sx-share-title">📣 Spread The Word</div>
+    <div class="sx-share-btns" id="shareButtons">
+      <a href="#" class="sx-share-btn" id="shareWA" target="_blank">💬 WhatsApp</a>
+      <a href="#" class="sx-share-btn" id="shareTW" target="_blank">🐦 Twitter/X</a>
+      <a href="#" class="sx-share-btn" id="shareFB" target="_blank">📘 Facebook</a>
+      <button class="sx-share-btn" id="copyLink">📋 Copy Link</button>
+    </div>
+  </div>
+
+  <!-- Actions -->
+  <div class="sx-actions">
+    <a href="index.html" class="sx-btn-primary">🏪 Back to Store</a>
+    <a href="index.html#free-books" class="sx-btn-secondary" id="moreAction">📚 More Free Books</a>
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer class="ft">
+  <div class="ft-inner">
+    <div><span class="ft-brand">FreshClick Vault 🔓</span><br><span class="ft-copy">© 2025 FreshClick Media. All rights reserved.</span></div>
+    <div class="ft-links"><a href="index.html">Store</a><a href="index.html#free-books">Free Books</a><a href="index.html#business-box">Business in a Box</a><a href="https://wa.me/263779674212" target="_blank">WhatsApp</a></div>
+  </div>
+</footer>
+
+<a href="https://wa.me/263779674212" class="wa" target="_blank" aria-label="WhatsApp">💬</a>
+
+<!-- ============================================
+     JAVASCRIPT — UNIVERSAL PRODUCT DETECTION
+     ============================================ -->
+<script>
+(function(){
+'use strict';
+
+// ============================================
+// PRODUCT DATABASE
+// ============================================
+var PRODUCTS = {
+  // === FREE BOOKS ===
+  'traffic-is-the-new-oil': {type:'book',emoji:'⛽',title:'Traffic Is The New Oil',sub:'The African Digital Wealth Formula',color:'green'},
+  'pinterest-goldmine': {type:'book',emoji:'📌',title:'Pinterest Goldmine',sub:'The AfriSphere Traffic Playbook',color:'green'},
+  'adsterra-decoded': {type:'book',emoji:'💰',title:'Adsterra Decoded',sub:'From Sign-Up to First $100',color:'green'},
+  'blog-like-a-lumora': {type:'book',emoji:'📝',title:'Blog Like a Lumora',sub:'The Blogger.com Masterclass',color:'green'},
+  'niche-finder': {type:'book',emoji:'🎯',title:'The Niche Finder',sub:'50 Profitable Blog Niches for Africans',color:'green'},
+  'currency-liberation': {type:'book',emoji:'💳',title:'Currency Liberation',sub:'Getting Paid in USD From Africa',color:'green'},
+  'complete-bundle': {type:'book',emoji:'📦',title:'The Complete Bundle',sub:'All 6 Books in One Download',color:'green'},
+
+  // === PAID BOXES ===
+  'starter-box': {type:'box',emoji:'🚀',title:'Starter Box',sub:'Blog + Adsterra + 1 Social Account · $27',color:'gold',delivery:'48 hours',price:'$27'},
+  'growth-box': {type:'box',emoji:'📈',title:'Growth Box',sub:'+ 3 Socials + 10 Posts + Branding · $67',color:'gold',delivery:'48-72 hours',price:'$67'},
+  'empire-box': {type:'box',emoji:'👑',title:'Empire Box',sub:'+ 5 Socials + 25 Posts + Pinterest + Support · $127',color:'gold',delivery:'72 hours',price:'$127'},
+  'mogul-box': {type:'box',emoji:'👑',title:'Mogul Box',sub:'All 8 Platforms + 50 Posts + 60-Day Mentorship · $247',color:'gold',delivery:'5 days',price:'$247'}
+};
+
+// ============================================
+// BOOK NEXT STEPS
+// ============================================
+var BOOK_STEPS = [
+  {num:'Step 1',emoji:'📧',title:'Check Your Inbox',desc:'Your PDF is being delivered right now. Check spam too.'},
+  {num:'Step 2',emoji:'📖',title:'Read The Book',desc:'Set aside 2-3 hours. Take notes. Highlight key sections.'},
+  {num:'Step 3',emoji:'⚡',title:'Take Action',desc:'Don\'t just read — implement. Start within 48 hours.'},
+  {num:'Step 4',emoji:'📚',title:'Get More Books',desc:'Download the other free books to complete your education.'}
+];
+
+// ============================================
+// BOX NEXT STEPS
+// ============================================
+var BOX_STEPS = [
+  {num:'Step 1',emoji:'💬',title:'WhatsApp Confirmation',desc:'Our team will message you within 1 hour to confirm details.'},
+  {num:'Step 2',emoji:'🔧',title:'We Build Everything',desc:'Sit back. We\'re configuring your blog, ads, and socials.'},
+  {num:'Step 3',emoji:'📦',title:'Receive Credentials',desc:'All login details + documentation sent via WhatsApp.'},
+  {num:'Step 4',emoji:'🚀',title:'Start Earning',desc:'Follow the strategy guide. Drive traffic. Watch ads earn.'}
+];
+
+// ============================================
+// GET URL PARAMS
+// ============================================
+var params = new URLSearchParams(window.location.search);
+var type = params.get('type') || 'book';
+var id = params.get('id') || 'traffic-is-the-new-oil';
+var email = params.get('email') || '';
+var name = params.get('name') || '';
+
+var product = PRODUCTS[id];
+if(!product){
+  product = PRODUCTS['traffic-is-the-new-oil'];
+  type = 'book';
+}
+
+var isBook = (type === 'book');
+
+// ============================================
+// DOM ELEMENTS
+// ============================================
+var checkCircle = document.getElementById('checkCircle');
+var checkEmoji = document.getElementById('checkEmoji');
+var ring1 = document.getElementById('ring1');
+var ring2 = document.getElementById('ring2');
+var greeting = document.getElementById('greeting');
+var headline = document.getElementById('headline');
+var subline = document.getElementById('subline');
+var productCard = document.getElementById('productCard');
+var statusBadge = document.getElementById('statusBadge');
+var prodEmoji = document.getElementById('prodEmoji');
+var prodTitle = document.getElementById('prodTitle');
+var prodSub = document.getElementById('prodSub');
+var emailBlock = document.getElementById('emailBlock');
+var emailValue = document.getElementById('emailValue');
+var stepsTitle = document.getElementById('stepsTitle');
+var stepsGrid = document.getElementById('stepsGrid');
+var spamNotice = document.getElementById('spamNotice');
+var waSupport = document.getElementById('waSupport');
+var waText = document.getElementById('waText');
+var upsellSection = document.getElementById('upsellSection');
+var crossSection = document.getElementById('crossSection');
+var moreAction = document.getElementById('moreAction');
+
+// ============================================
+// POPULATE PAGE
+// ============================================
+
+// Check circle mode
+checkCircle.classList.add(isBook ? 'book-mode' : 'box-mode');
+ring2.classList.add(isBook ? 'book-ring' : 'box-ring');
+checkEmoji.textContent = isBook ? '📬' : '🎉';
+
+// Greeting
+var displayName = name || 'Lumora';
+greeting.textContent = 'Hey ' + displayName + ' 👋';
+
+// Headline
+headline.classList.add(isBook ? 'book-head' : 'box-head');
+if(isBook){
+  headline.textContent = 'Book Sent! Check Your Inbox 📬';
+} else {
+  headline.textContent = 'Order Confirmed! 🎉';
+}
+
+// Subline
+if(isBook){
+  subline.innerHTML = 'We\'ve sent <strong>' + product.title + '</strong> to your email. It should arrive within 60 seconds.';
+} else {
+  subline.innerHTML = 'Your <strong>' + product.title + '</strong> order is confirmed. Our team is starting your build now.';
+}
+
+// Product card
+productCard.classList.add(isBook ? 'book-card' : 'box-card');
+prodEmoji.textContent = product.emoji;
+prodTitle.textContent = product.title;
+prodSub.textContent = product.sub;
+
+// Status badge
+statusBadge.classList.add(isBook ? 'book-status' : 'box-status');
+statusBadge.textContent = isBook ? '📬 Sent to Email' : '✅ Order Confirmed · ' + (product.price || '');
+
+// Email (books only)
+if(isBook && email){
+  emailBlock.style.display = 'block';
+  emailValue.textContent = email;
+}
+
+// Page title
+document.title = (isBook ? 'Book Sent!' : 'Order Confirmed!') + ' — ' + product.title + ' | FreshClick Vault';
+
+// ============================================
+// NEXT STEPS
+// ============================================
+var steps = isBook ? BOOK_STEPS : BOX_STEPS;
+var stepClass = isBook ? 'book-num' : 'box-num';
+
+stepsTitle.textContent = isBook ? 'What To Do Next' : 'What Happens Now';
+
+var stepsHTML = '';
+steps.forEach(function(step){
+  stepsHTML += '<div class="sx-step">';
+  stepsHTML += '<span class="sx-step-num ' + stepClass + '">' + step.num + '</span>';
+  stepsHTML += '<span class="sx-step-emoji">' + step.emoji + '</span>';
+  stepsHTML += '<div class="sx-step-title">' + step.title + '</div>';
+  stepsHTML += '<div class="sx-step-desc">' + step.desc + '</div>';
+  stepsHTML += '</div>';
+});
+stepsGrid.innerHTML = stepsHTML;
+
+// ============================================
+// CONDITIONAL SECTIONS
+// ============================================
+if(isBook){
+  spamNotice.style.display = 'block';
+  upsellSection.style.display = 'block';
+  moreAction.textContent = '📚 Download More Books';
+  moreAction.href = 'index.html#free-books';
+} else {
+  waSupport.style.display = 'block';
+  crossSection.style.display = 'block';
+  moreAction.textContent = '💼 View All Packages';
+  moreAction.href = 'index.html#business-box';
+
+  // Update WA support text with delivery time
+  if(product.delivery){
+    waText.textContent = 'Our team has started building your ' + product.title + '. Expected delivery: ' + product.delivery + '. You\'ll receive progress updates on WhatsApp.';
+  }
+}
+
+// ============================================
+// SHARE BUTTONS
+// ============================================
+var shareText = isBook
+  ? 'I just downloaded "' + product.title + '" from FreshClick Vault — free book on making USD from Africa! 🌍⛽ Get yours:'
+  : 'I just ordered the ' + product.title + ' from FreshClick Vault — a complete online business, done for you! 💼🚀';
+
+var shareURL = 'https://freshclickmedia.github.io/freshclick-vault/';
+
+document.getElementById('shareWA').href = 'https://wa.me/?text=' + encodeURIComponent(shareText + ' ' + shareURL);
+document.getElementById('shareTW').href = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(shareText) + '&url=' + encodeURIComponent(shareURL);
+document.getElementById('shareFB').href = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(shareURL) + '&quote=' + encodeURIComponent(shareText);
+
+document.getElementById('copyLink').addEventListener('click', function(){
+  if(navigator.clipboard){
+    navigator.clipboard.writeText(shareURL).then(function(){
+      var btn = document.getElementById('copyLink');
+      btn.textContent = '✅ Copied!';
+      setTimeout(function(){ btn.textContent = '📋 Copy Link'; }, 2000);
+    });
+  } else {
+    var ta = document.createElement('textarea');
+    ta.value = shareURL;
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    var btn = document.getElementById('copyLink');
+    btn.textContent = '✅ Copied!';
+    setTimeout(function(){ btn.textContent = '📋 Copy Link'; }, 2000);
+  }
+});
+
+// ============================================
+// MOBILE MENU
+// ============================================
+var tog = document.getElementById('navToggle');
+var mob = document.getElementById('mobileMenu');
+if(tog && mob){
+  tog.addEventListener('click', function(e){
+    e.stopPropagation();
+    tog.classList.toggle('active');
+    mob.classList.toggle('active');
+    document.body.style.overflow = mob.classList.contains('active') ? 'hidden' : '';
+  });
+  mob.querySelectorAll('a').forEach(function(a){
+    a.addEventListener('click', function(){
+      tog.classList.remove('active');
+      mob.classList.remove('active');
+      document.body.style.overflow = '';
+    });
+  });
+  document.addEventListener('click', function(e){
+    if(!mob.contains(e.target) && !tog.contains(e.target)){
+      tog.classList.remove('active');
+      mob.classList.remove('active');
+      document.body.style.overflow = '';
+    }
+  });
+}
+
+// ============================================
+// CONSOLE
+// ============================================
+console.log(
+  '%c✅ Success! %c ' + product.title + ' ',
+  'background:' + (isBook ? '#4ade80' : '#d4af37') + ';color:#0a0b0f;padding:6px 12px;font-weight:bold;border-radius:4px 0 0 4px',
+  'background:#111827;color:' + (isBook ? '#4ade80' : '#d4af37') + ';padding:6px 12px;border-radius:0 4px 4px 0'
+);
+
+})();
+</script>
+
+</body>
+</html>
