@@ -1,4 +1,4 @@
-```markdown
+
 # FreshClick Vault 🔓
 ### The AfriSphere Digital Wealth Store
 
