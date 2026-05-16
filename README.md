@@ -16,19 +16,7 @@
 
 - [Overview](#-overview)
 - [Live Site](#-live-site)
-- [Site Architecture](#-site-architecture)
-- [File Structure](#-file-structure)
-- [Page Reference](#-page-reference)
 - [Product Catalog](#-product-catalog)
-- [URL Parameter Reference](#-url-parameter-reference)
-- [Technology Stack](#-technology-stack)
-- [Google Apps Script Setup](#-google-apps-script-setup)
-- [Email Delivery System](#-email-delivery-system)
-- [Design System](#-design-system)
-- [WhatsApp Integration](#-whatsapp-integration)
-- [SEO Configuration](#-seo-configuration)
-- [Deployment Guide](#-deployment-guide)
-- [Customization Guide](#-customization-guide)
 - [Contact & Support](#-contact--support)
 
 ---
@@ -36,17 +24,6 @@
 ## 🌍 Overview
 
 **FreshClick Vault** is the e-commerce and content delivery arm of **FreshClick Media** — a digital publisher focused on teaching Africans to earn USD income online using free tools, free traffic, and strategic ad monetization.
-
-### What This Site Does
-
-| Function | Details |
-|---|---|
-| **Publishes** | 6 free digital books on African digital wealth |
-| **Sells** | 4 "Business in a Box" packages ($27–$247) |
-| **Captures** | Email addresses with Google Apps Script backend |
-| **Delivers** | Free PDFs automatically via email |
-| **Converts** | Free book readers into paid box customers |
-| **Serves** | The entire AfriSphere (15+ countries documented) |
 
 ### The Core Formula
 
@@ -63,4 +40,9 @@ Every piece of content on this site teaches, demonstrates, or delivers this form
 ```
 https://unchained-commerce.github.io/FreshClick-Vault/index.html
 ```
+## 🌍 Contact & Support
 
+The digital wealth store of FreshClick Media. Free knowledge, ready-made businesses, and everything Lumoras need to earn USD from Africa.
+
+💬 WhatsApp: +263 77 967 4212
+📧 unchainedcommerce@atomicmail.io 
